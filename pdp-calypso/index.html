@@ -1,0 +1,3064 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Canapé d'angle fixe CALYPSO tissu bouclette — Bobochic Paris</title>
+  <meta name="description" content="Découvrez le canapé d'angle CALYPSO en tissu bouclette. Forme arrondie, confort enveloppant, livraison à domicile." />
+  <style>
+/* ===== Inlined from https://cdn.jsdelivr.net/gh/corentindw/meridian@main/tokens.css ===== */
+/* ============================================================
+   BOBOCHIC PARIS — Design Tokens
+   Miroir exact du fichier Figma "Styles – Bobochic"
+   ============================================================
+   Fonts (locales + Google) — injectés par le design system.
+   ============================================================ */
+
+@font-face {
+  font-family: "Hanken Grotesk";
+  src: url("https://cdn.jsdelivr.net/gh/corentindw/meridian@main/fonts/HankenGrotesk-VariableFont_wght.ttf") format("truetype-variations");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Hanken Grotesk";
+  src: url("https://cdn.jsdelivr.net/gh/corentindw/meridian@main/fonts/HankenGrotesk-Italic-VariableFont_wght.ttf") format("truetype-variations");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+
+/* ============================================================
+   Structure :
+     1. Primitifs (couleurs brutes, tailles, devices)
+     2. Couleurs sémantiques (surface, background, border, foreground)
+     3. Spacing sémantique (margin, gap, height, width)
+     4. Radius
+     5. Line-stroke
+     6. Elevation
+     7. Typographie (familles, graisses, tailles, tokens composés)
+   ============================================================ */
+
+
+:root {
+
+  /* ==========================================================
+     1. PRIMITIFS — COULEURS
+     Collection "Primitives" · Mode 1
+     ========================================================== */
+
+  /* Neutral */
+  --color-neutral-0:    #ffffff;
+  --color-neutral-50:   #f9f9f9;
+  --color-neutral-100:  #f2f2f2;
+  --color-neutral-150:  #e6e6e6;
+  --color-neutral-200:  #d9d9d9;
+  --color-neutral-250:  #cccccc;
+  --color-neutral-300:  #bfbfbf;
+  --color-neutral-350:  #b3b3b3;
+  --color-neutral-400:  #a6a6a6;
+  --color-neutral-450:  #8c8c8c;
+  --color-neutral-500:  #808080;
+  --color-neutral-550:  #737373;
+  --color-neutral-600:  #666666;
+  --color-neutral-650:  #595959;
+  --color-neutral-700:  #4d4d4d;
+  --color-neutral-750:  #404040;
+  --color-neutral-800:  #333333;
+  --color-neutral-850:  #262626;
+  --color-neutral-900:  #1a1a1a;
+  --color-neutral-950:  #0b0b0c;
+  --color-neutral-1000: #000000;
+
+  /* Red */
+  --color-red-100: #fef2f2;
+  --color-red-200: #fde1e1;
+  --color-red-300: #fbbebe;
+  --color-red-400: #f99393;
+  --color-red-500: #f75556;
+  --color-red-600: #e80206;
+  --color-red-700: #c90205;
+  --color-red-800: #a40104;
+  --color-red-900: #740103;
+
+  /* Green */
+  --color-green-100: #f2fef2;
+  --color-green-200: #e1fde1;
+  --color-green-300: #bffbbe;
+  --color-green-400: #95f893;
+  --color-green-500: #58f655;
+  --color-green-600: #17e702;
+  --color-green-700: #14c802;
+  --color-green-800: #10a301;
+  --color-green-900: #0b7301;
+
+  /* Orange */
+  --color-orange-100: #fef6f2;
+  --color-orange-200: #fdebe1;
+  --color-orange-300: #fbd4be;
+  --color-orange-400: #f8bb93;
+  --color-orange-500: #f69e55;
+  --color-orange-600: #e78502;
+  --color-orange-700: #c87302;
+  --color-orange-800: #a35e01;
+  --color-orange-900: #734201;
+
+  /* Yellow */
+  --color-yellow-100: #fefbf2;
+  --color-yellow-200: #fdf6e1;
+  --color-yellow-300: #fbecbe;
+  --color-yellow-400: #f8e293;
+  --color-yellow-500: #f6d855;
+  --color-yellow-600: #e7c602;
+  --color-yellow-700: #c8ab02;
+  --color-yellow-800: #a38c01;
+  --color-yellow-900: #736301;
+
+
+  /* ==========================================================
+     1. PRIMITIFS — TAILLES
+     ========================================================== */
+
+  --size-0:  0;
+  --size-1:  2px;
+  --size-2:  4px;
+  --size-3:  8px;
+  --size-4:  16px;
+  --size-5:  24px;
+  --size-6:  32px;
+  --size-7:  40px;
+  --size-8:  48px;
+  --size-9:  56px;
+  --size-10: 64px;
+  --size-11: 80px;
+  --size-12: 96px;
+  --size-13: 120px;
+  --size-14: 144px;
+  --size-15: 200px;
+  --size-16: 256px;
+
+
+  /* ==========================================================
+     1. PRIMITIFS — DEVICES
+     ========================================================== */
+
+  --device-mobile-width:  393px;
+  --device-mobile-height: 852px;
+  --device-tablet-width:  834px;
+  --device-tablet-height: 1194px;
+  --device-desktop-width:  1536px;
+  --device-desktop-height: 864px;
+
+
+  /* ==========================================================
+     2. COULEURS SÉMANTIQUES
+     Collection "Color" · Mode "Value"
+     ========================================================== */
+
+  /* --- $surface --- */
+  --color-surface-0:  var(--color-neutral-0);
+  --color-surface-1:  var(--color-neutral-50);
+  --color-surface-2:  var(--color-neutral-100);
+  --color-surface-3:  var(--color-neutral-150);
+  --color-surface-4:  var(--color-neutral-200);
+  --color-surface-5:  var(--color-neutral-350);
+  --color-surface-6:  var(--color-neutral-550);
+  --color-surface-7:  var(--color-neutral-800);
+  --color-surface-8:  var(--color-neutral-850);
+  --color-surface-9:  var(--color-neutral-900);
+  --color-surface-10: var(--color-neutral-950);
+
+  /* --- $background --- */
+  --color-background-neutral-0:  var(--color-neutral-0);
+  --color-background-neutral-1:  var(--color-neutral-50);
+  --color-background-neutral-2:  var(--color-neutral-100);
+  --color-background-neutral-3:  var(--color-neutral-150);
+  --color-background-neutral-4:  var(--color-neutral-200);
+  --color-background-neutral-5:  var(--color-neutral-350);
+  --color-background-neutral-6:  var(--color-neutral-550);
+  --color-background-neutral-7:  var(--color-neutral-800);
+  --color-background-neutral-8:  var(--color-neutral-850);
+  --color-background-neutral-9:  var(--color-neutral-900);
+  --color-background-neutral-10: var(--color-neutral-950);
+  --color-background-red-light:    var(--color-red-200);
+  --color-background-red-dark:     var(--color-red-800);
+  --color-background-green-light:  var(--color-green-200);
+  --color-background-green-dark:   var(--color-green-900);
+  --color-background-orange-light: var(--color-orange-200);
+  --color-background-orange-dark:  var(--color-orange-700);
+  --color-background-yellow-light: var(--color-yellow-200);
+  --color-background-yellow-dark:  var(--color-yellow-600);
+
+  /* --- $border --- */
+  --color-border-neutral-0:  var(--color-neutral-0);
+  --color-border-neutral-1:  var(--color-neutral-50);
+  --color-border-neutral-2:  var(--color-neutral-100);
+  --color-border-neutral-3:  var(--color-neutral-150);
+  --color-border-neutral-4:  var(--color-neutral-200);
+  --color-border-neutral-5:  var(--color-neutral-350);
+  --color-border-neutral-6:  var(--color-neutral-550);
+  --color-border-neutral-7:  var(--color-neutral-800);
+  --color-border-neutral-8:  var(--color-neutral-850);
+  --color-border-neutral-9:  var(--color-neutral-900);
+  --color-border-neutral-10: var(--color-neutral-950);
+  --color-border-red-light:    var(--color-red-200);
+  --color-border-red-dark:     var(--color-red-800);
+  --color-border-green-light:  var(--color-green-200);
+  --color-border-green-dark:   var(--color-green-900);
+  --color-border-orange-light: var(--color-orange-200);
+  --color-border-orange-dark:  var(--color-orange-700);
+  --color-border-yellow-light: var(--color-yellow-200);
+  --color-border-yellow-dark:  var(--color-yellow-600);
+
+  /* --- $foreground --- */
+  --color-foreground-neutral-0:  var(--color-neutral-0);
+  --color-foreground-neutral-1:  var(--color-neutral-50);
+  --color-foreground-neutral-2:  var(--color-neutral-100);
+  --color-foreground-neutral-3:  var(--color-neutral-150);
+  --color-foreground-neutral-4:  var(--color-neutral-200);
+  --color-foreground-neutral-5:  var(--color-neutral-350);
+  --color-foreground-neutral-6:  var(--color-neutral-550);
+  --color-foreground-neutral-7:  var(--color-neutral-800);
+  --color-foreground-neutral-8:  var(--color-neutral-850);
+  --color-foreground-neutral-9:  var(--color-neutral-900);
+  --color-foreground-neutral-10: var(--color-neutral-950);
+  --color-foreground-red-light:    var(--color-red-200);
+  --color-foreground-red-dark:     var(--color-red-800);
+  --color-foreground-green-light:  var(--color-green-200);
+  --color-foreground-green-dark:   var(--color-green-900);
+  --color-foreground-orange-light: var(--color-orange-200);
+  --color-foreground-orange-dark:  var(--color-orange-700);
+  --color-foreground-yellow-light: var(--color-yellow-200);
+  --color-foreground-yellow-dark:  var(--color-yellow-600);
+
+
+  /* ==========================================================
+     3. SPACING SÉMANTIQUE
+     Collection "Number" · Mode "Value"
+     ========================================================== */
+
+  /* Margins — Mobile */
+  --spacing-margin-mobile-sm: var(--size-3);   /*  8px */
+  --spacing-margin-mobile-md: var(--size-4);   /* 16px */
+  --spacing-margin-mobile-lg: var(--size-5);   /* 24px */
+
+  /* Margins — Tablet */
+  --spacing-margin-tablet-sm: var(--size-7);   /* 40px */
+  --spacing-margin-tablet-md: var(--size-10);  /* 64px */
+  --spacing-margin-tablet-lg: var(--size-13);  /* 120px */
+
+  /* Margins — Desktop */
+  --spacing-margin-desktop-sm: var(--size-10); /* 64px */
+  --spacing-margin-desktop-md: var(--size-14); /* 144px */
+  --spacing-margin-desktop-lg: var(--size-16); /* 256px */
+
+  /* Gap */
+  --spacing-gap-none: var(--size-0);
+  --spacing-gap-xs:   var(--size-1);   /*  2px */
+  --spacing-gap-sm:   var(--size-2);   /*  4px */
+  --spacing-gap-md:   var(--size-3);   /*  8px */
+  --spacing-gap-lg:   var(--size-4);   /* 16px */
+  --spacing-gap-xl:   var(--size-5);   /* 24px */
+  --spacing-gap-2xl:  var(--size-6);   /* 32px */
+  --spacing-gap-3xl:  var(--size-7);   /* 40px */
+  --spacing-gap-4xl:  var(--size-8);   /* 48px */
+  --spacing-gap-5xl:  var(--size-9);   /* 56px */
+  --spacing-gap-6xl:  var(--size-10);  /* 64px */
+
+  /* Height (padding vertical) */
+  --spacing-height-none: var(--size-0);
+  --spacing-height-xs:   var(--size-1);   /*  2px */
+  --spacing-height-sm:   var(--size-2);   /*  4px */
+  --spacing-height-md:   var(--size-3);   /*  8px */
+  --spacing-height-lg:   var(--size-4);   /* 16px */
+  --spacing-height-xl:   var(--size-5);   /* 24px */
+  --spacing-height-2xl:  var(--size-6);   /* 32px */
+  --spacing-height-3xl:  var(--size-7);   /* 40px */
+  --spacing-height-4xl:  var(--size-9);   /* 56px */
+  --spacing-height-5xl:  var(--size-10);  /* 64px */
+
+  /* Width (padding horizontal) */
+  --spacing-width-none: var(--size-0);
+  --spacing-width-xs:   var(--size-1);    /*  2px */
+  --spacing-width-sm:   var(--size-2);    /*  4px */
+  --spacing-width-md:   var(--size-3);    /*  8px */
+  --spacing-width-lg:   var(--size-4);    /* 16px */
+  --spacing-width-xl:   var(--size-5);    /* 24px */
+  --spacing-width-2xl:  var(--size-6);    /* 32px */
+  --spacing-width-3xl:  var(--size-7);    /* 40px */
+  --spacing-width-4xl:  var(--size-10);   /* 64px */
+  --spacing-width-5xl:  var(--size-11);   /* 80px */
+
+
+  /* ==========================================================
+     4. RADIUS
+     ========================================================== */
+
+  --radius-none:   var(--size-0);    /*   0 */
+  --radius-sm:     var(--size-2);    /*   4px */
+  --radius-md:     var(--size-3);    /*   8px */
+  --radius-lg:     var(--size-4);    /*  16px */
+  --radius-xl:     var(--size-6);    /*  32px */
+  --radius-full:   var(--size-16);   /* 256px */
+  --radius-flag:   var(--size-0);    /*   0 — flags & badges */
+  --radius-button: var(--size-0);    /*   0 */
+
+
+  /* ==========================================================
+     5. LINE-STROKE
+     ========================================================== */
+
+  --line-stroke-base: 1px;
+  --line-stroke-bold: 2px;
+
+
+  /* ==========================================================
+     6. ELEVATION
+     ========================================================== */
+
+  --elevation-1: 0px 1px 4px  rgba(12, 12, 13, 0.08);
+  --elevation-2: 0px 0px 25px rgba(12, 12, 13, 0.05);
+  --elevation-3: 0px 0px 25px rgba(12, 12, 13, 0.10);
+  --elevation-4: 0px 0px 25px rgba(12, 12, 13, 0.15);
+
+
+  /* ==========================================================
+     7. TYPOGRAPHIE — PRIMITIFS
+     Collection "Typography" · Mode 1
+     ========================================================== */
+
+  /* Familles */
+  --font-family-text:     "Hanken Grotesk", sans-serif;
+  --font-family-heading:  "Hanken Grotesk", sans-serif;
+  --font-family-display:  "Hanken Grotesk", sans-serif;
+  --font-family-subtitle: "Hanken Grotesk", sans-serif;
+  --font-family-utility:  "Hanken Grotesk", sans-serif;
+  --font-family-product:  "Hanken Grotesk", sans-serif;
+  --font-family-code:     "Space Mono", monospace;
+
+  /* Graisses */
+  --font-weight-base:      400;  /* Regular */
+  --font-weight-medium:    600;  /* SemiBold */
+  --font-weight-strong:    700;  /* Bold */
+  --font-weight-stronger:  800;  /* ExtraBold */
+  --font-weight-strongest: 900;  /* Black */
+
+  /* Tailles */
+  --font-size-xs:  10px;
+  --font-size-sm:  12px;
+  --font-size-md:  14px;
+  --font-size-lg:  18px;
+  --font-size-xl:  25px;
+  --font-size-2xl: 31px;
+  --font-size-3xl: 39px;
+  --font-size-4xl: 49px;
+  --font-size-5xl: 61px;
+  --font-size-6xl: 76px;
+  --font-size-7xl: 95px;
+  --font-size-8xl: 119px;
+
+  /* Interlignages */
+  --line-height-xs:   12px;
+  --line-height-flag: 14px;
+  --line-height-sm:   16px;
+  --line-height-md:   20px;
+  --line-height-lg:   24px;
+  --line-height-xl:   28px;
+  --line-height-2xl:  35px;
+  --line-height-3xl:  48px;
+  --line-height-4xl:  64px;
+  --line-height-5xl:  76px;
+  --line-height-6xl:  100px;
+  --line-height-7xl:  125px;
+  --line-height-8xl:  150px;
+
+  /* Interlettrages */
+  --letter-spacing-default: -0.16px;
+  --letter-spacing-caps:     0.48px;
+  --letter-spacing-display: -1.5px;
+}
+
+
+/* ============================================================
+   7. TYPOGRAPHIE — TOKENS COMPOSÉS
+   Classes utilitaires calquées sur la structure Figma
+   ============================================================ */
+
+/* --- Display --- */
+
+.display-xl-strong   { font-family: var(--font-family-display); font-weight: var(--font-weight-stronger);  font-size: var(--font-size-7xl); line-height: var(--line-height-7xl); letter-spacing: var(--letter-spacing-display); }
+.display-xl          { font-family: var(--font-family-display); font-weight: var(--font-weight-base);      font-size: var(--font-size-7xl); line-height: var(--line-height-7xl); letter-spacing: var(--letter-spacing-display); }
+.display-lg-strong   { font-family: var(--font-family-display); font-weight: var(--font-weight-stronger);  font-size: var(--font-size-6xl); line-height: var(--line-height-6xl); letter-spacing: var(--letter-spacing-display); }
+.display-lg          { font-family: var(--font-family-display); font-weight: var(--font-weight-base);      font-size: var(--font-size-6xl); line-height: var(--line-height-6xl); letter-spacing: var(--letter-spacing-display); }
+.display-md-strong   { font-family: var(--font-family-display); font-weight: var(--font-weight-stronger);  font-size: var(--font-size-5xl); line-height: var(--line-height-5xl); letter-spacing: var(--letter-spacing-display); }
+.display-md          { font-family: var(--font-family-display); font-weight: var(--font-weight-base);      font-size: var(--font-size-5xl); line-height: var(--line-height-5xl); letter-spacing: var(--letter-spacing-display); }
+.display-sm-strong   { font-family: var(--font-family-display); font-weight: var(--font-weight-stronger);  font-size: var(--font-size-4xl); line-height: var(--line-height-4xl); letter-spacing: var(--letter-spacing-display); }
+.display-sm          { font-family: var(--font-family-display); font-weight: var(--font-weight-base);      font-size: var(--font-size-4xl); line-height: var(--line-height-4xl); letter-spacing: var(--letter-spacing-display); }
+.display-xs-strong   { font-family: var(--font-family-display); font-weight: var(--font-weight-stronger);  font-size: var(--font-size-3xl); line-height: var(--line-height-3xl); letter-spacing: var(--letter-spacing-display); }
+.display-xs          { font-family: var(--font-family-display); font-weight: var(--font-weight-base);      font-size: var(--font-size-3xl); line-height: var(--line-height-3xl); letter-spacing: var(--letter-spacing-display); }
+.display-xxs-strong  { font-family: var(--font-family-display); font-weight: var(--font-weight-stronger);  font-size: var(--font-size-2xl); line-height: var(--line-height-2xl); letter-spacing: var(--letter-spacing-display); }
+.display-xxs         { font-family: var(--font-family-display); font-weight: var(--font-weight-base);      font-size: var(--font-size-2xl); line-height: var(--line-height-2xl); letter-spacing: var(--letter-spacing-display); }
+
+/* --- Heading / Title --- */
+
+.heading-title-xxl { font-family: var(--font-family-heading); font-weight: var(--font-weight-strongest); font-size: var(--font-size-4xl); line-height: var(--line-height-4xl); letter-spacing: var(--letter-spacing-default); }
+.heading-title-xl  { font-family: var(--font-family-heading); font-weight: var(--font-weight-stronger);  font-size: var(--font-size-3xl); line-height: var(--line-height-3xl); letter-spacing: var(--letter-spacing-default); }
+.heading-title-lg  { font-family: var(--font-family-heading); font-weight: var(--font-weight-strong);    font-size: var(--font-size-2xl); line-height: var(--line-height-2xl); letter-spacing: var(--letter-spacing-default); }
+.heading-title-md  { font-family: var(--font-family-heading); font-weight: var(--font-weight-medium);    font-size: var(--font-size-xl);  line-height: var(--line-height-xl);  letter-spacing: var(--letter-spacing-default); }
+.heading-title-sm  { font-family: var(--font-family-heading); font-weight: var(--font-weight-medium);    font-size: var(--font-size-lg);  line-height: var(--line-height-xl);  letter-spacing: var(--letter-spacing-default); }
+
+/* --- Heading / Subtitle --- */
+
+.heading-subtitle-md { font-family: var(--font-family-subtitle); font-weight: var(--font-weight-medium); font-size: var(--font-size-md); line-height: var(--line-height-md); letter-spacing: var(--letter-spacing-caps); text-transform: uppercase; }
+.heading-subtitle-sm { font-family: var(--font-family-subtitle); font-weight: var(--font-weight-medium); font-size: var(--font-size-sm); line-height: var(--line-height-sm); letter-spacing: var(--letter-spacing-caps); text-transform: uppercase; }
+
+/* --- Text --- */
+
+.text-lg-regular { font-family: var(--font-family-text); font-weight: var(--font-weight-base);   font-size: var(--font-size-lg); line-height: var(--line-height-lg); letter-spacing: var(--letter-spacing-default); }
+.text-lg-strong  { font-family: var(--font-family-text); font-weight: var(--font-weight-strong); font-size: var(--font-size-lg); line-height: var(--line-height-lg); letter-spacing: var(--letter-spacing-default); }
+.text-lg-italic  { font-family: var(--font-family-text); font-weight: var(--font-weight-base);   font-size: var(--font-size-lg); line-height: var(--line-height-lg); letter-spacing: var(--letter-spacing-default); font-style: italic; }
+.text-lg-strike  { font-family: var(--font-family-text); font-weight: var(--font-weight-base);   font-size: var(--font-size-lg); line-height: var(--line-height-lg); letter-spacing: var(--letter-spacing-default); text-decoration: line-through; }
+.text-lg-link    { font-family: var(--font-family-text); font-weight: var(--font-weight-base);   font-size: var(--font-size-lg); line-height: var(--line-height-lg); letter-spacing: var(--letter-spacing-default); text-decoration: underline; }
+
+.text-md-regular { font-family: var(--font-family-text); font-weight: var(--font-weight-base);   font-size: var(--font-size-md); line-height: var(--line-height-md); letter-spacing: var(--letter-spacing-default); }
+.text-md-strong  { font-family: var(--font-family-text); font-weight: var(--font-weight-strong); font-size: var(--font-size-md); line-height: var(--line-height-md); letter-spacing: var(--letter-spacing-default); }
+.text-md-italic  { font-family: var(--font-family-text); font-weight: var(--font-weight-base);   font-size: var(--font-size-md); line-height: var(--line-height-md); letter-spacing: var(--letter-spacing-default); font-style: italic; }
+.text-md-strike  { font-family: var(--font-family-text); font-weight: var(--font-weight-base);   font-size: var(--font-size-md); line-height: var(--line-height-md); letter-spacing: var(--letter-spacing-default); text-decoration: line-through; }
+.text-md-link    { font-family: var(--font-family-text); font-weight: var(--font-weight-base);   font-size: var(--font-size-md); line-height: var(--line-height-md); letter-spacing: var(--letter-spacing-default); text-decoration: underline; }
+
+.text-sm-regular { font-family: var(--font-family-text); font-weight: var(--font-weight-base);   font-size: var(--font-size-sm); line-height: var(--line-height-sm); letter-spacing: var(--letter-spacing-default); }
+.text-sm-strong  { font-family: var(--font-family-text); font-weight: var(--font-weight-strong); font-size: var(--font-size-sm); line-height: var(--line-height-sm); letter-spacing: var(--letter-spacing-default); }
+.text-sm-italic  { font-family: var(--font-family-text); font-weight: var(--font-weight-base);   font-size: var(--font-size-sm); line-height: var(--line-height-sm); letter-spacing: var(--letter-spacing-default); font-style: italic; }
+.text-sm-strike  { font-family: var(--font-family-text); font-weight: var(--font-weight-base);   font-size: var(--font-size-sm); line-height: var(--line-height-sm); letter-spacing: var(--letter-spacing-default); text-decoration: line-through; }
+.text-sm-link    { font-family: var(--font-family-text); font-weight: var(--font-weight-base);   font-size: var(--font-size-sm); line-height: var(--line-height-sm); letter-spacing: var(--letter-spacing-default); text-decoration: underline; }
+
+.text-xs-regular { font-family: var(--font-family-text); font-weight: var(--font-weight-base);   font-size: var(--font-size-xs); line-height: var(--line-height-xs); letter-spacing: var(--letter-spacing-default); }
+.text-xs-strong  { font-family: var(--font-family-text); font-weight: var(--font-weight-strong); font-size: var(--font-size-xs); line-height: var(--line-height-xs); letter-spacing: var(--letter-spacing-default); }
+.text-xs-italic  { font-family: var(--font-family-text); font-weight: var(--font-weight-base);   font-size: var(--font-size-xs); line-height: var(--line-height-xs); letter-spacing: var(--letter-spacing-default); font-style: italic; }
+.text-xs-strike  { font-family: var(--font-family-text); font-weight: var(--font-weight-base);   font-size: var(--font-size-xs); line-height: var(--line-height-xs); letter-spacing: var(--letter-spacing-default); text-decoration: line-through; }
+.text-xs-link    { font-family: var(--font-family-text); font-weight: var(--font-weight-base);   font-size: var(--font-size-xs); line-height: var(--line-height-xs); letter-spacing: var(--letter-spacing-default); text-decoration: underline; }
+
+/* --- Utility --- */
+
+.utility-label       { font-family: var(--font-family-utility); font-weight: var(--font-weight-medium); font-size: var(--font-size-sm); line-height: var(--line-height-sm);   letter-spacing: var(--letter-spacing-default); }
+.utility-helpertext  { font-family: var(--font-family-utility); font-weight: var(--font-weight-base);   font-size: var(--font-size-sm); line-height: var(--line-height-sm);   letter-spacing: var(--letter-spacing-default); }
+.utility-breadcrumbs { font-family: var(--font-family-utility); font-weight: var(--font-weight-base);   font-size: var(--font-size-sm); line-height: var(--line-height-sm);   letter-spacing: var(--letter-spacing-default); }
+.utility-button-sm   { font-family: var(--font-family-utility); font-weight: var(--font-weight-base);   font-size: var(--font-size-sm); line-height: var(--line-height-sm);   letter-spacing: var(--letter-spacing-default); }
+.utility-button-md   { font-family: var(--font-family-utility); font-weight: var(--font-weight-medium); font-size: var(--font-size-md); line-height: var(--line-height-md);   letter-spacing: var(--letter-spacing-default); }
+.utility-flag        { font-family: var(--font-family-utility); font-weight: var(--font-weight-medium); font-size: var(--font-size-sm); line-height: var(--line-height-flag); letter-spacing: var(--letter-spacing-default); }
+.utility-code-md     { font-family: var(--font-family-code);    font-weight: var(--font-weight-base);   font-size: var(--font-size-md); line-height: var(--line-height-md);   letter-spacing: 0; }
+
+/* --- Utility / Product (prix, noms produit — uppercase + caps spacing) --- */
+
+.utility-product-md  { font-family: var(--font-family-product); font-weight: var(--font-weight-medium); font-size: var(--font-size-xl); line-height: var(--line-height-xl);   letter-spacing: var(--letter-spacing-caps); text-transform: uppercase; }
+.utility-product-sm  { font-family: var(--font-family-product); font-weight: var(--font-weight-medium); font-size: var(--font-size-lg); line-height: var(--line-height-md);   letter-spacing: var(--letter-spacing-caps); text-transform: uppercase; }
+.utility-product-xs  { font-family: var(--font-family-product); font-weight: var(--font-weight-medium); font-size: var(--font-size-md); line-height: var(--line-height-sm);   letter-spacing: var(--letter-spacing-caps); text-transform: uppercase; }
+.utility-product-xxs { font-family: var(--font-family-product); font-weight: var(--font-weight-medium); font-size: var(--font-size-sm); line-height: var(--line-height-flag); letter-spacing: var(--letter-spacing-caps); text-transform: uppercase; }
+
+/* ===== Inlined from styles.css ===== */
+/* =========================================================
+   PDP CALYPSO — Shop The Look
+   Aligné sur Meridian (Bobochic Paris)
+   Tokens importés depuis https://cdn.jsdelivr.net/gh/corentindw/meridian@main/tokens.css
+   ========================================================= */
+
+/* ---------- Reset ---------- */
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--color-neutral-0);
+  color: var(--color-neutral-950);
+  font-family: var(--font-family-text);
+  font-size: var(--font-size-md);
+  line-height: var(--line-height-md);
+  letter-spacing: var(--letter-spacing-default);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img { display: block; max-width: 100%; }
+button { font-family: inherit; cursor: pointer; }
+a { color: inherit; text-decoration: none; }
+
+/* =========================================================
+   Icon system — <img> tags servis depuis https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/
+   Pour inverser en blanc sur fond foncé : auto via les sélecteurs ci-dessous.
+   ========================================================= */
+.icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  object-fit: contain;
+  vertical-align: middle;
+}
+.icon--sm { width: 16px; height: 16px; }
+.icon--lg { width: 32px; height: 32px; }
+.icon--invert { filter: brightness(0) invert(1); }
+
+/* Inversion automatique sur fonds foncés */
+.hotspot-preview__cta .icon,
+.btn--primary .icon,
+.reassurance-chip--dark .icon,
+.info-tile .icon,
+.footer__socials .icon,
+.scroll-top .icon,
+.view-toggle.is-active .icon {
+  filter: brightness(0) invert(1);
+}
+
+/* =========================================================
+   Boutons Meridian — 4 variantes (Primary / White / Secondary / Outline)
+   ========================================================= */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 40px;
+  padding: 0 16px;
+  border: 1px solid transparent;
+  border-radius: var(--radius-button);
+  font: var(--font-weight-medium) var(--font-size-md)/var(--line-height-md) var(--font-family-utility);
+  letter-spacing: var(--letter-spacing-default);
+  cursor: pointer;
+  white-space: nowrap;
+  box-sizing: border-box;
+  transition: background-color 150ms ease, color 150ms ease, border-color 150ms ease, transform 60ms ease;
+}
+.btn:active { transform: scale(0.98); }
+.btn:disabled { cursor: not-allowed; transform: none; }
+
+/* Primary */
+.btn--primary,
+.btn:not(.btn--white):not(.btn--secondary):not(.btn--outline) {
+  background: var(--color-neutral-950);
+  color: var(--color-neutral-0);
+}
+.btn--primary:hover,
+.btn:not(.btn--white):not(.btn--secondary):not(.btn--outline):hover { background: var(--color-neutral-800); }
+.btn--primary:focus-visible,
+.btn:not(.btn--white):not(.btn--secondary):not(.btn--outline):focus-visible {
+  background: var(--color-neutral-700);
+  outline: none;
+}
+.btn--primary:disabled,
+.btn:not(.btn--white):not(.btn--secondary):not(.btn--outline):disabled {
+  background: var(--color-neutral-200);
+  color: var(--color-neutral-400);
+}
+
+/* White */
+.btn--white { background: var(--color-neutral-0); color: var(--color-neutral-950); }
+.btn--white:hover { background: var(--color-neutral-100); }
+.btn--white:focus-visible { background: var(--color-neutral-150); outline: none; }
+.btn--white:disabled { background: transparent; color: var(--color-neutral-350); }
+
+/* Secondary */
+.btn--secondary { background: var(--color-neutral-100); color: var(--color-neutral-950); }
+.btn--secondary:hover { background: var(--color-neutral-150); }
+.btn--secondary:focus-visible { background: var(--color-neutral-200); outline: none; }
+.btn--secondary:disabled { background: var(--color-neutral-100); color: var(--color-neutral-350); }
+
+/* Outline */
+.btn--outline {
+  background: var(--color-neutral-0);
+  color: var(--color-neutral-950);
+  border-color: var(--color-border-neutral-5);
+}
+.btn--outline:hover { border-color: var(--color-border-neutral-7); }
+.btn--outline:focus-visible { border-color: var(--color-border-neutral-10); outline: none; }
+.btn--outline:disabled {
+  color: var(--color-neutral-400);
+  border-color: var(--color-border-neutral-4);
+}
+
+/* =========================================================
+   Flag — selon spec Meridian (components-badges.html)
+   ========================================================= */
+.flag {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 8px;
+  background: var(--color-neutral-950);
+  color: var(--color-neutral-0);
+  border-radius: var(--radius-flag);
+  font: var(--font-weight-medium) var(--font-size-sm)/var(--line-height-flag) var(--font-family-utility);
+}
+
+/* =========================================================
+   HEADER — desktop Laptop 1536
+   3 zones empilées : .header__bandeau (24h) + .header__main + .header__nav
+   ========================================================= */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--color-neutral-0);
+  border-bottom: 1px solid var(--color-border-neutral-3);
+}
+
+/* ---------- 1. Bandeau noir (24px) ---------- */
+.header__bandeau {
+  background: var(--color-neutral-950);
+  color: var(--color-neutral-0);
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 64px;
+  gap: 16px;
+  overflow: hidden;
+}
+
+.header__bandeau-left,
+.header__bandeau-right {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: transparent;
+  border: 0;
+  color: var(--color-neutral-0);
+  font: 400 12px/16px var(--font-family-utility);
+  letter-spacing: -0.16px;
+  flex-shrink: 0;
+  width: 100px;
+  cursor: pointer;
+}
+.header__bandeau-left { justify-content: flex-start; }
+.header__bandeau-right { justify-content: flex-end; }
+
+.header__bandeau-left .icon,
+.header__bandeau-right .icon {
+  width: 16px;
+  height: 16px;
+  filter: brightness(0) invert(1);
+}
+
+/* Bandeau message — rotation 3 messages */
+.header__bandeau-msg {
+  flex: 1 0 0;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+.bandeau-msg {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 400 12px/16px var(--font-family-text);
+  letter-spacing: -0.16px;
+  color: var(--color-neutral-0);
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 400ms ease, transform 400ms ease;
+}
+.bandeau-msg.is-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+.bandeau-msg strong { font-weight: 700; }
+
+/* ---------- 2. Header main (logo, search, actions) ---------- */
+.header__main {
+  background: var(--color-neutral-0);
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 16px 64px;
+}
+
+.header__menu {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  color: var(--color-neutral-950);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.header__logo {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.header__logo-img { display: none; height: 40px; width: auto; }
+.header__logo-img--desktop { display: block; height: 40px; }
+.header__logo-img--mobile { display: none; }
+
+.header__search {
+  flex: 1 0 0;
+  display: flex;
+  align-items: center;
+  gap: 0;
+  padding: 8px;
+  background: var(--color-neutral-0);
+  border: 1px solid var(--color-border-neutral-5);
+  box-shadow: var(--elevation-1);
+}
+.header__search .icon { width: 24px; height: 24px; flex-shrink: 0; }
+.header__search input {
+  flex: 1;
+  height: 24px;
+  padding: 0 8px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  font: 400 14px/20px var(--font-family-text);
+  letter-spacing: -0.16px;
+  color: var(--color-neutral-950);
+  min-width: 0;
+}
+.header__search input::placeholder { color: var(--color-neutral-350); }
+
+.header__actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-shrink: 0;
+}
+
+.header__action {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  border: 0;
+  background: transparent;
+  color: var(--color-neutral-950);
+  cursor: pointer;
+  padding: 0;
+}
+.header__action--with-label {
+  font: 600 14px/20px var(--font-family-utility);
+  letter-spacing: -0.16px;
+}
+.header__action--with-label .icon { width: 24px; height: 24px; }
+
+.header__action--icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.header__action--icon .icon { width: 24px; height: 24px; }
+
+/* Pastille (badge) sur compte / panier */
+.header__pastille {
+  position: absolute;
+  top: -3px;
+  left: 14px;
+  width: 12px;
+  height: 12px;
+  border-radius: 99px;
+  background: var(--color-red-800);
+  color: var(--color-neutral-0);
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  font: 700 10px/12px var(--font-family-text);
+  letter-spacing: -0.16px;
+}
+.header__pastille--check .icon {
+  width: 10px;
+  height: 10px;
+  filter: brightness(0) invert(1);
+}
+
+/* ---------- 3. Nav (desktop) ---------- */
+.header__nav {
+  background: var(--color-neutral-0);
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 0 64px 8px;
+  border-bottom: 1px solid var(--color-border-neutral-3);
+}
+.nav-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font: 600 14px/20px var(--font-family-utility);
+  letter-spacing: -0.16px;
+  color: var(--color-neutral-950);
+  height: 24px;
+  padding: 0;
+  border-bottom: 1px solid transparent;
+  transition: border-color 150ms ease-out;
+}
+.nav-item:hover { border-color: var(--color-neutral-950); }
+.nav-item .icon { width: 24px; height: 24px; }
+.nav-sale { color: var(--color-red-800); }
+
+/* =========================================================
+   BREADCRUMB
+   ========================================================= */
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 24px 64px 16px;
+  color: var(--color-neutral-550);
+}
+.breadcrumb a, .breadcrumb span { font: 400 12px/16px var(--font-family-utility); letter-spacing: -0.16px; color: inherit; }
+.breadcrumb a:hover { color: var(--color-neutral-950); }
+.breadcrumb__sep { opacity: 0.5; }
+.breadcrumb__current { color: var(--color-neutral-950); }
+
+/* =========================================================
+   PDP LAYOUT
+   ========================================================= */
+.pdp {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) 460px;
+  gap: 48px;
+  padding: 0 64px 64px;
+  align-items: start;
+}
+.pdp__left {
+  min-width: 0;
+  align-self: start;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.pdp__right { min-width: 0; align-self: start; }
+
+@media (max-width: 1280px) {
+  .pdp { grid-template-columns: 1fr 420px; gap: 40px; }
+}
+@media (max-width: 960px) {
+  .pdp { grid-template-columns: 1fr; }
+  .pdp__right { position: static; }
+}
+
+/* =========================================================
+   SHOP THE LOOK — grille gauche
+   ========================================================= */
+.shop-the-look {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+}
+
+/* Toolbar — switch de vue */
+.shop-the-look__toolbar {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  z-index: 6;
+  display: flex;
+  gap: 8px;
+}
+
+.view-toggle {
+  width: 32px;
+  height: 32px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 0;
+  border-radius: var(--radius-button);
+  display: grid;
+  place-items: center;
+  color: var(--color-neutral-950);
+  cursor: pointer;
+  box-shadow: var(--elevation-1);
+  transition: background 150ms ease, color 150ms ease;
+}
+.view-toggle:hover { background: #fff; }
+.view-toggle.is-active {
+  background: var(--color-neutral-950);
+  color: var(--color-neutral-0);
+}
+.view-toggle.is-active:hover { background: var(--color-neutral-900); }
+
+/* Stacked view */
+.shop-the-look--stacked { grid-template-columns: 1fr; }
+.shop-the-look--stacked .stl__cell[data-cell="1"] { aspect-ratio: 908 / 680; }
+.shop-the-look--stacked .stl__cell[data-cell="2"] { aspect-ratio: 908 / 510; }
+.shop-the-look--stacked .stl__cell[data-cell="3"] { aspect-ratio: 908 / 679; }
+.shop-the-look--stacked .stl__cell[data-cell="4"] { aspect-ratio: 908 / 679; }
+.shop-the-look--stacked .stl__more { display: none; }
+
+.stl__cell {
+  position: relative;
+  aspect-ratio: 453 / 339;
+  background: var(--color-neutral-100);
+}
+
+.stl__cell > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* "Voir plus de photos" — positionnement seulement.
+   Le styling vient de .btn .btn--white (height 40, padding 0 16, gap 10) */
+.stl__more {
+  position: absolute;
+  left: 50%;
+  bottom: 24px;
+  transform: translateX(-50%);
+  z-index: 5;
+}
+.stl__more:active { transform: translateX(-50%) scale(0.98); }
+
+/* =========================================================
+   HOTSPOTS — pure CSS + animation 150ms
+   ========================================================= */
+.stl__hotspot-wrap {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+}
+
+/* Au hover/focus, le wrap entier passe au-dessus des autres hotspots
+   pour que sa preview ne soit jamais masquée par un hotspot voisin */
+.stl__hotspot-wrap:hover,
+.stl__hotspot-wrap:focus-within {
+  z-index: 30;
+}
+
+/* Pont invisible entre hotspot et preview pour ne pas casser le :hover */
+.stl__hotspot-wrap::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 220px;
+  height: 12px;
+  z-index: 19;
+}
+
+.stl__hotspot {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+.stl__hotspot:focus-visible { outline: none; }
+
+.stl__hotspot::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 4px;
+  width: 24px;
+  height: 24px;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 1px 4px rgba(12, 12, 13, 0.08);
+}
+
+.stl__hotspot::after {
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: 10px;
+  width: 12px;
+  height: 12px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 1px 4px rgba(12, 12, 13, 0.08);
+  transform: scale(1);
+  transform-origin: center;
+  transition: transform 150ms ease;
+}
+.stl__hotspot-wrap:hover .stl__hotspot::after,
+.stl__hotspot:focus-visible::after {
+  transform: scale(0.5);
+}
+
+/* =========================================================
+   HOTSPOT PREVIEW — composant ProductCard size=sm Meridian
+   ========================================================= */
+.hotspot-preview {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 50%;
+  transform: translateX(-50%) translateY(-4px);
+
+  width: 200px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px;
+  border: 1px solid #f2f2f2;
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 160ms ease, transform 160ms ease;
+  z-index: 20;
+}
+.stl__hotspot-wrap:hover .hotspot-preview,
+.stl__hotspot-wrap:focus-within .hotspot-preview {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+  pointer-events: auto;
+}
+
+/* Variant --right : overlay positionné à droite du hotspot, centré verticalement */
+.stl__hotspot-wrap--right .hotspot-preview {
+  top: 50%;
+  left: calc(100% + 6px);
+  transform: translateY(-50%) translateX(-4px);
+}
+.stl__hotspot-wrap--right:hover .hotspot-preview,
+.stl__hotspot-wrap--right:focus-within .hotspot-preview {
+  transform: translateY(-50%) translateX(0);
+}
+
+/* Le pont invisible passe aussi à droite */
+.stl__hotspot-wrap--right::after {
+  top: 50%;
+  left: 100%;
+  transform: translateY(-50%);
+  width: 12px;
+  height: 64px;
+}
+
+.hotspot-preview__item {
+  flex: 1 0 0;
+  min-width: 0;
+  display: flex;
+  align-items: stretch;
+  gap: 2px;
+  overflow: hidden;
+}
+
+.hotspot-preview__thumb {
+  flex-shrink: 0;
+  width: 54px;
+  border: 1px solid #f2f2f2;
+  overflow: hidden;
+  background: var(--color-neutral-100);
+}
+.hotspot-preview__thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.hotspot-preview__info {
+  flex: 1 0 0;
+  min-width: 0;
+  padding: 0 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+
+.hotspot-preview__name {
+  margin: 0;
+  width: 100%;
+  font: 600 12px/14px var(--font-family-utility);
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+  color: var(--color-neutral-950);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.hotspot-preview__desc {
+  margin: 0;
+  width: 100%;
+  height: 12px;
+  font: 400 10px/12px var(--font-family-text);
+  letter-spacing: -0.16px;
+  color: var(--color-neutral-550);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.hotspot-preview__price {
+  margin: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font: 700 12px/16px var(--font-family-text);
+  letter-spacing: -0.16px;
+  color: var(--color-neutral-950);
+  white-space: nowrap;
+}
+
+.hotspot-preview__cta {
+  align-self: stretch;
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  background: var(--color-neutral-950);
+  color: var(--color-neutral-0);
+  border: 0;
+  border-radius: var(--radius-button);
+  transition: background 150ms ease;
+}
+.hotspot-preview__cta:hover { background: var(--color-neutral-900); }
+
+/* =========================================================
+   LES + DU PRODUIT — spec Figma node 25101:17876
+   ========================================================= */
+.product-plus {
+  background: var(--color-neutral-50);
+  border: 1px solid var(--color-border-neutral-3);
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: var(--color-neutral-950);
+}
+.product-plus h2 {
+  margin: 0;
+  font: 600 25px/28px var(--font-family-heading);
+  letter-spacing: -0.16px;
+}
+.product-plus ul {
+  margin: 0;
+  padding: 0 0 0 21px;
+  list-style: disc;
+}
+.product-plus li {
+  font: 400 14px/20px var(--font-family-text);
+  letter-spacing: -0.16px;
+}
+
+/* =========================================================
+   DETAIL CARD — col droite
+   ========================================================= */
+.pdp__right {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.detail-card {
+  border: 1px solid var(--color-border-neutral-4);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background: var(--color-neutral-0);
+}
+
+.detail-card__flags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.detail-card__product h1 {
+  margin: 0;
+  font: 600 18px/20px var(--font-family-utility);
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+  color: var(--color-neutral-950);
+}
+
+.detail-card__subtitle {
+  margin: 0;
+  font: 400 12px/16px var(--font-family-text);
+  letter-spacing: -0.16px;
+  color: var(--color-neutral-550);
+}
+
+/* Prix + Alma */
+.price-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.price__amount {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+  font: 700 18px/24px var(--font-family-text);
+  letter-spacing: -0.16px;
+  color: var(--color-neutral-950);
+}
+
+.price__eco {
+  margin: 0;
+  font: 400 10px/12px var(--font-family-text);
+  letter-spacing: -0.16px;
+  color: var(--color-neutral-550);
+}
+
+.alma {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+.alma__logo {
+  color: #ff4848;
+  font: 800 13px/16px var(--font-family-heading);
+  letter-spacing: -0.16px;
+}
+.alma__schedules {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.alma__chips { display: flex; }
+.alma__chip {
+  padding: 0 6px;
+  font: 400 12px/16px var(--font-family-text);
+  letter-spacing: -0.16px;
+  background: var(--color-neutral-0);
+  color: var(--color-neutral-950);
+  cursor: pointer;
+}
+.alma__chip.is-active {
+  background: var(--color-neutral-800);
+  color: var(--color-neutral-0);
+}
+.alma__split {
+  font: 400 12px/16px var(--font-family-text);
+  letter-spacing: -0.16px;
+  color: var(--color-neutral-950);
+}
+.alma__split strong { font-weight: 700; }
+.alma__more {
+  font: 400 12px/16px var(--font-family-utility);
+  letter-spacing: -0.16px;
+  color: var(--color-neutral-800);
+  text-decoration: underline;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  align-self: flex-start;
+}
+
+/* Dimensions */
+.dimensions {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.dim-item { display: inline-flex; align-items: center; gap: 4px; }
+.dim-item__icon {
+  width: 32px;
+  height: 32px;
+  background: var(--color-neutral-100);
+  display: grid;
+  place-items: center;
+  color: var(--color-neutral-950);
+}
+.dim-item__text {
+  display: flex;
+  flex-direction: column;
+  font: 400 12px/16px var(--font-family-text);
+  letter-spacing: -0.16px;
+  color: var(--color-neutral-950);
+}
+.dim-item__text strong { font-weight: 700; }
+
+/* Spacer */
+.detail-card hr,
+.spacer {
+  width: 100%;
+  border: 0;
+  height: 1px;
+  background: var(--color-border-neutral-4);
+  margin: 0;
+}
+
+/* Selectors couleur / angle */
+.selector {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.selector__label {
+  width: 80px;
+  font: 700 12px/16px var(--font-family-text);
+  letter-spacing: -0.16px;
+  color: var(--color-neutral-950);
+}
+.selector__sample {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1 0 0;
+}
+.color-swatch {
+  width: 24px;
+  height: 24px;
+  border-radius: var(--radius-md);
+  background: #537748;
+  border: 1px solid var(--color-border-neutral-4);
+}
+.selector__options {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.selector__count {
+  font: 400 12px/16px var(--font-family-text);
+  letter-spacing: -0.16px;
+  color: var(--color-neutral-550);
+}
+
+.icon-btn {
+  width: 24px;
+  height: 24px;
+  display: grid;
+  place-items: center;
+  background: var(--color-neutral-100);
+  border: 0;
+  color: var(--color-neutral-950);
+}
+.icon-btn:hover { background: var(--color-neutral-150); }
+
+/* Chips angle */
+.chips {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  flex: 1;
+}
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  background: var(--color-neutral-0);
+  border: 1px solid var(--color-border-neutral-5);
+  color: var(--color-neutral-950);
+  font: 400 12px/16px var(--font-family-utility);
+  letter-spacing: -0.16px;
+  border-radius: var(--radius-button);
+  cursor: pointer;
+}
+.chip.is-active {
+  border: 2px solid var(--color-neutral-950);
+  padding: 3px 7px;
+}
+.chip__hint {
+  margin-left: auto;
+  font: 400 12px/16px var(--font-family-text);
+  letter-spacing: -0.16px;
+  color: var(--color-neutral-550);
+}
+
+/* Livraison */
+.delivery-est {
+  margin: 0;
+  font: 400 12px/16px var(--font-family-text);
+  letter-spacing: -0.16px;
+  color: var(--color-neutral-950);
+}
+.delivery-est strong { font-weight: 700; }
+
+/* Main CTA */
+.main-cta {
+  display: flex;
+  gap: 16px;
+  align-items: stretch;
+}
+.main-cta .btn { flex: 1; min-width: 0; }
+
+.stepper {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--color-border-neutral-4);
+  padding: 0;
+  height: 40px;
+  width: 88px;
+}
+.stepper button {
+  width: 24px;
+  height: 24px;
+  border: 0;
+  background: transparent;
+  display: grid;
+  place-items: center;
+  color: var(--color-neutral-950);
+}
+.stepper button:disabled { opacity: 0.4; cursor: not-allowed; }
+.stepper input {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: transparent;
+  text-align: center;
+  font: 400 14px/20px var(--font-family-text);
+  letter-spacing: -0.16px;
+  color: var(--color-neutral-950);
+  outline: 0;
+  padding: 0 4px;
+  -moz-appearance: textfield;
+}
+.stepper input::-webkit-outer-spin-button,
+.stepper input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+
+/* =========================================================
+   REELS
+   ========================================================= */
+.reels {
+  display: flex;
+  gap: 16px;
+  padding: 8px 16px;
+}
+.reel {
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: center;
+  background: transparent;
+  border: 0;
+  padding: 0;
+}
+.reel__thumb {
+  width: 80px;
+  height: 100px;
+  border-radius: 256px;
+  overflow: hidden;
+  background: var(--color-neutral-100);
+  position: relative;
+}
+.reel__thumb img { width: 100%; height: 100%; object-fit: cover; }
+.reel__label {
+  font: 600 12px/16px var(--font-family-text);
+  letter-spacing: -0.16px;
+  color: var(--color-neutral-950);
+}
+
+/* =========================================================
+   ACCORDIONS
+   ========================================================= */
+.accordions {
+  border: 1px solid var(--color-border-neutral-4);
+  padding: 8px 16px;
+  display: flex;
+  flex-direction: column;
+  background: var(--color-neutral-0);
+}
+.accordion {
+  border-bottom: 2px solid var(--color-border-neutral-4);
+  padding: 0;
+}
+.accordion:last-child { border-bottom: 0; }
+.accordion summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0;
+  font: 700 12px/16px var(--font-family-text);
+  letter-spacing: -0.16px;
+  color: var(--color-neutral-950);
+}
+.accordion summary::-webkit-details-marker { display: none; }
+.accordion summary .toggle-icon {
+  width: 24px;
+  height: 24px;
+  display: grid;
+  place-items: center;
+  transition: transform 200ms ease;
+  color: var(--color-neutral-950);
+}
+.accordion[open] summary .toggle-icon { transform: rotate(45deg); }
+.accordion__body {
+  padding: 0 0 16px;
+  font: 400 14px/20px var(--font-family-text);
+  letter-spacing: -0.16px;
+  color: var(--color-neutral-950);
+}
+.accordion__body p { margin: 0 0 12px; }
+.accordion__body ul { margin: 0; padding: 0 0 0 18px; }
+.accordion__body li { margin-bottom: 4px; }
+
+/* =========================================================
+   RÉASSURANCE — chips
+   ========================================================= */
+.reassurance {
+  border: 1px solid var(--color-border-neutral-4);
+  padding: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  background: var(--color-neutral-0);
+}
+.reassurance-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  background: var(--color-neutral-100);
+  border: 0;
+  border-radius: var(--radius-button);
+  font: 400 12px/16px var(--font-family-utility);
+  letter-spacing: -0.16px;
+  color: var(--color-neutral-950);
+}
+.reassurance-chip:hover { background: var(--color-neutral-150); }
+.reassurance-chip--dark {
+  background: var(--color-neutral-950);
+  color: var(--color-neutral-0);
+}
+.reassurance-chip--dark:hover { background: var(--color-neutral-800); }
+
+/* =========================================================
+   RECOMMANDATIONS — pleine largeur
+   ========================================================= */
+.recos {
+  margin-top: 64px;
+  padding: 0 64px;
+}
+.recos__header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.recos__title {
+  margin: 0;
+  font: 700 31px/35px var(--font-family-heading);
+  letter-spacing: -0.16px;
+}
+.recos__cta {
+  font: 400 14px/20px var(--font-family-utility);
+  letter-spacing: -0.16px;
+  text-decoration: underline;
+  color: var(--color-neutral-950);
+}
+
+.recos__grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+}
+@media (max-width: 1280px) { .recos__grid { grid-template-columns: repeat(4, 1fr); } }
+@media (max-width: 960px)  { .recos__grid { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 640px)  { .recos__grid { grid-template-columns: repeat(2, 1fr); } }
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: var(--color-neutral-0);
+  transition: transform 200ms ease;
+}
+.product-card:hover { transform: translateY(-2px); }
+
+.product-card__media {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  background: var(--color-neutral-100);
+  overflow: hidden;
+}
+.product-card__media img { width: 100%; height: 100%; object-fit: cover; }
+
+.product-card__badges {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  display: flex;
+  gap: 4px;
+}
+
+.product-card__wish {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 32px;
+  height: 32px;
+  border-radius: 256px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 0;
+  display: grid;
+  place-items: center;
+  color: var(--color-neutral-950);
+}
+.product-card__wish:hover { background: var(--color-neutral-0); }
+
+.product-card__name {
+  font: 600 14px/16px var(--font-family-utility);
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+  color: var(--color-neutral-950);
+}
+.product-card__desc {
+  margin: 0;
+  font: 400 12px/16px var(--font-family-text);
+  letter-spacing: -0.16px;
+  color: var(--color-neutral-550);
+}
+.product-card__prices {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+.product-card__price {
+  font: 700 18px/24px var(--font-family-text);
+  letter-spacing: -0.16px;
+  color: var(--color-neutral-950);
+}
+.product-card__price--sale { color: var(--color-red-800); }
+.product-card__price--old {
+  font: 400 14px/20px var(--font-family-text);
+  letter-spacing: -0.16px;
+  color: var(--color-neutral-550);
+  text-decoration: line-through;
+}
+.product-card__discount {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 8px;
+  background: var(--color-red-200);
+  color: var(--color-red-800);
+  border-radius: var(--radius-flag);
+  font: 600 12px/14px var(--font-family-utility);
+  letter-spacing: -0.16px;
+}
+
+/* =========================================================
+   INFO BANNER (bandeau noir 4 tuiles)
+   ========================================================= */
+.info-banner {
+  margin-top: 64px;
+  background: var(--color-neutral-800);
+  color: var(--color-neutral-0);
+  padding: 40px 64px;
+}
+.info-banner__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+}
+.info-tile {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+.info-tile h3 {
+  margin: 0 0 4px;
+  font: 700 14px/20px var(--font-family-text);
+  letter-spacing: -0.16px;
+}
+.info-tile p {
+  margin: 0;
+  font: 400 12px/16px var(--font-family-text);
+  letter-spacing: -0.16px;
+  color: var(--color-neutral-300);
+}
+@media (max-width: 960px) {
+  .info-banner__grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+.footer {
+  background: var(--color-neutral-950);
+  color: var(--color-neutral-0);
+  padding: 64px 64px 40px;
+}
+.footer__top {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr 1fr 1fr;
+  gap: 40px;
+}
+.footer__brand h3 {
+  margin: 0 0 12px;
+  font: 800 22px/1 var(--font-family-heading);
+  letter-spacing: -0.5px;
+}
+.footer__brand p {
+  margin: 0 0 16px;
+  font: 400 14px/20px var(--font-family-text);
+  letter-spacing: -0.16px;
+  color: var(--color-neutral-300);
+}
+.footer__newsletter { display: flex; gap: 0; }
+.footer__newsletter input {
+  flex: 1;
+  height: 40px;
+  padding: 0 12px;
+  border: 1px solid var(--color-neutral-700);
+  background: var(--color-neutral-900);
+  color: var(--color-neutral-0);
+  font: 400 14px/20px var(--font-family-text);
+  letter-spacing: -0.16px;
+  outline: 0;
+}
+.footer__newsletter input::placeholder { color: var(--color-neutral-450); }
+.footer__newsletter button {
+  height: 40px;
+  background: var(--color-neutral-0);
+  color: var(--color-neutral-950);
+  border: 0;
+  padding: 0 16px;
+  font: var(--font-weight-medium) var(--font-size-md)/var(--line-height-md) var(--font-family-utility);
+  letter-spacing: var(--letter-spacing-default);
+}
+
+.footer__col h4 {
+  margin: 0 0 16px;
+  font: 600 14px/20px var(--font-family-heading);
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+}
+.footer__col ul { list-style: none; margin: 0; padding: 0; }
+.footer__col li {
+  font: 400 14px/24px var(--font-family-text);
+  letter-spacing: -0.16px;
+  color: var(--color-neutral-300);
+}
+.footer__col a:hover { color: var(--color-neutral-0); }
+
+.footer__bottom {
+  margin-top: 48px;
+  padding-top: 32px;
+  border-top: 1px solid var(--color-neutral-800);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  font: 400 12px/16px var(--font-family-text);
+  letter-spacing: -0.16px;
+  color: var(--color-neutral-400);
+}
+
+.footer__socials {
+  display: flex;
+  gap: 16px;
+}
+.footer__socials a {
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  border-radius: 256px;
+  border: 1px solid var(--color-neutral-700);
+  color: var(--color-neutral-0);
+}
+
+@media (max-width: 1280px) { .footer__top { grid-template-columns: 1fr 1fr 1fr; } }
+@media (max-width: 640px)  { .footer__top { grid-template-columns: 1fr; } }
+
+/* =========================================================
+   SCROLL TOP FAB
+   ========================================================= */
+.scroll-top {
+  position: fixed;
+  right: 32px;
+  bottom: 32px;
+  width: 48px;
+  height: 48px;
+  border-radius: 256px;
+  background: var(--color-neutral-950);
+  color: var(--color-neutral-0);
+  border: 0;
+  display: grid;
+  place-items: center;
+  box-shadow: var(--elevation-3);
+  z-index: 50;
+  transition: transform 200ms ease, background 150ms ease;
+}
+.scroll-top:hover { background: var(--color-neutral-900); transform: translateY(-2px); }
+
+/* =========================================================
+   STEP INDICATOR (mobile carousel)
+   Wrapper .shop-the-look-frame positionne les dots EN DEHORS du scroll
+   ========================================================= */
+.shop-the-look-frame { position: relative; }
+
+/* Toggle hotspots on/off — masqué sur desktop, visible sur mobile uniquement */
+.stl__hotspots-toggle { display: none; }
+.stl__hotspots-toggle-icon--off { display: none; }
+
+.stl__steps {
+  display: none;
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  gap: 8px;
+  z-index: 4;
+  pointer-events: none;
+}
+.stl__step {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  transition: background 200ms ease, transform 200ms ease;
+}
+.stl__step.is-active {
+  background: var(--color-neutral-0);
+  transform: scale(1.15);
+}
+
+/* =========================================================
+   STICKY MOBILE CTA (bottom bar)
+   ========================================================= */
+.mobile-cta {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 60;
+  padding: 12px 16px calc(12px + env(safe-area-inset-bottom));
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-top: 1px solid var(--color-border-neutral-3);
+  gap: 12px;
+  align-items: center;
+}
+.mobile-cta__info {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.mobile-cta__name {
+  font: 600 12px/14px var(--font-family-utility);
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+  color: var(--color-neutral-950);
+}
+.mobile-cta__price {
+  font: 700 14px/20px var(--font-family-text);
+  letter-spacing: -0.16px;
+  color: var(--color-neutral-950);
+}
+.mobile-cta__btn {
+  flex: 1;
+  min-width: 0;
+}
+
+/* =========================================================
+   BOTTOM SHEET — "Voir l'ambiance"
+   ========================================================= */
+.ambiance-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 200;
+  opacity: 0;
+  transition: opacity 250ms ease;
+}
+.ambiance-backdrop.is-open { opacity: 1; }
+.ambiance-backdrop[hidden] { display: none; }
+
+.ambiance-sheet {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-height: 85vh;
+  background: var(--color-neutral-0);
+  z-index: 210;
+  display: flex;
+  flex-direction: column;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.32, 0.72, 0, 1);
+  box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.18);
+}
+.ambiance-sheet.is-open { transform: translateY(0); }
+.ambiance-sheet[hidden] { display: none; }
+
+.ambiance-sheet__header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 16px 24px;
+  border-bottom: 1.5px solid var(--color-border-neutral-2, #f2f2f2);
+  flex-shrink: 0;
+}
+.ambiance-sheet__title {
+  flex: 1;
+  margin: 0;
+  font: 600 18px/28px var(--font-family-heading);
+  letter-spacing: -0.16px;
+  color: var(--color-neutral-950);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ambiance-sheet__close {
+  width: 24px;
+  height: 24px;
+  display: grid;
+  place-items: center;
+  border: 0;
+  background: transparent;
+  color: var(--color-neutral-950);
+}
+.ambiance-sheet__close .icon { width: 24px; height: 24px; }
+
+.ambiance-sheet__body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 24px 16px;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Grid 2 colonnes de cartes produit larges */
+.ambiance-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.ambiance-card {
+  background: var(--color-neutral-0);
+  border: 1px solid var(--color-border-neutral-3);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  transition: transform 200ms ease;
+  cursor: pointer;
+}
+.ambiance-card:hover { transform: translateY(-2px); }
+
+.ambiance-card__media {
+  aspect-ratio: 245 / 185;
+  overflow: hidden;
+  background: var(--color-neutral-100);
+}
+.ambiance-card__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ambiance-card__body {
+  padding: 0 8px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.ambiance-card__name {
+  margin: 0;
+  font: 600 18px/20px var(--font-family-utility);
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+  color: var(--color-neutral-950);
+}
+.ambiance-card__desc {
+  margin: 0;
+  font: 400 12px/16px var(--font-family-text);
+  letter-spacing: -0.16px;
+  color: var(--color-neutral-550);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.ambiance-card__price {
+  margin: 4px 0 0;
+  font: 700 14px/20px var(--font-family-text);
+  letter-spacing: -0.16px;
+  color: var(--color-neutral-950);
+}
+
+/* =========================================================
+   MOBILE — breakpoint 768px
+   ========================================================= */
+@media (max-width: 768px) {
+
+  /* HEADER mobile — pas de nav, search visible en row 2 */
+
+  /* Bandeau : 32px, padding 16px, plus de bouton Magasins ni flag */
+  .header__bandeau {
+    height: 32px;
+    padding: 0 16px;
+  }
+  .header__bandeau-left { display: none; }
+  .header__bandeau-right { display: none; }
+
+  /* Header main : 2 rangées via flex-wrap + order
+     Row 1 (justify-between) : menu + logo (left, mr-auto) + actions (right)
+     Row 2 : search (width 100%) */
+  .header__main {
+    flex-wrap: wrap;
+    padding: 16px;
+    gap: 16px;
+    align-items: center;
+  }
+
+  /* Order pour assembler les rangées correctement */
+  .header__menu    { order: 1; }
+  .header__logo    { order: 2; margin-right: auto; }
+  .header__actions { order: 3; }
+  .header__search  { order: 4; flex-basis: 100%; box-shadow: none; }
+
+  /* Logo mobile : version "bobochic" (sans Paris), 88px de large */
+  .header__logo-img--desktop { display: none; }
+  .header__logo-img--mobile  { display: block; width: 88px; height: auto; }
+
+  /* Actions : icon-only sur mobile */
+  .header__action--with-label span { display: none; }
+  .header__action--with-label .icon { width: 24px; height: 24px; }
+  .header__actions { gap: 16px; }
+
+  /* Pas de nav sur mobile */
+  .header__nav { display: none; }
+
+  /* Pas de breadcrumb sur mobile : les photos arrivent direct après le header */
+  .breadcrumb { display: none; }
+
+  /* PDP layout : single column, .pdp__left est dissous via display: contents
+     pour permettre de réordonner ses enfants (shop-the-look avant, product-plus à la fin) */
+  .pdp {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 0 0 24px;
+  }
+  .pdp__left {
+    display: contents;
+  }
+  .pdp__right {
+    position: static;
+    padding: 0 16px;
+    gap: 12px;
+    order: 2;
+  }
+  .shop-the-look-frame { order: 1; }
+  .product-plus        { order: 3; }
+  .shop-the-look {
+    display: flex;
+    grid-template-columns: none;
+    gap: 0;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .shop-the-look::-webkit-scrollbar { display: none; }
+
+  .stl__cell {
+    flex: 0 0 100%;
+    aspect-ratio: 393 / 295;
+    scroll-snap-align: start;
+  }
+
+  /* Toolbar grille/stacked masqué (pas de sens en carrousel) */
+  .shop-the-look__toolbar { display: none; }
+
+  /* "Voir plus de photos" masqué — le swipe sert au même usage */
+  .stl__more { display: none; }
+
+  /* Step indicator visible */
+  .stl__steps { display: flex; }
+
+  /* Hotspot preview desktop masquée — on utilise le bottom sheet à la place */
+  .hotspot-preview { display: none !important; }
+  .stl__hotspot-wrap::after { display: none; }
+
+  /* Toggle hotspots on/off — visible sur mobile uniquement quand la 3e photo est visible */
+  .stl__hotspots-toggle {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    z-index: 6;
+    display: grid;
+    place-items: center;
+    width: 36px;
+    height: 36px;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 0;
+    border-radius: var(--radius-button);
+    color: var(--color-neutral-950);
+    cursor: pointer;
+    box-shadow: var(--elevation-1);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-4px);
+    transition: opacity 200ms ease, transform 200ms ease, background 150ms ease;
+  }
+  .shop-the-look-frame.on-hotspot-cell .stl__hotspots-toggle {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+  }
+  .stl__hotspots-toggle:hover,
+  .stl__hotspots-toggle:focus-visible { background: #fff; outline: none; }
+
+  /* Switch d'icône selon l'état (classe sur le frame) */
+  .shop-the-look-frame.hotspots-off .stl__hotspots-toggle-icon--on { display: none; }
+  .shop-the-look-frame.hotspots-off .stl__hotspots-toggle-icon--off { display: block; }
+
+  /* Quand hotspots-off : on masque tous les hotspots */
+  .shop-the-look-frame.hotspots-off .stl__hotspot-wrap { display: none; }
+
+  /* Les + du produit — margin latérale (16px) + padding réduit sur mobile */
+  .product-plus {
+    margin: 0 16px;
+    padding: 24px;
+    gap: 12px;
+  }
+  .product-plus h2 {
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  /* DETAIL CARD : pas de border sur mobile, pas de padding-top */
+  .detail-card { border: 0; padding: 0 0 16px; gap: 20px; }
+  .accordions, .reassurance { margin: 0; }
+
+  /* Réassurance : 1 col */
+  .reassurance { flex-direction: column; align-items: stretch; }
+  .reassurance-chip { justify-content: flex-start; }
+
+  /* Dimensions : flex wrap */
+  .dimensions { gap: 12px 16px; }
+
+  /* Reels : centré */
+  .reels { justify-content: center; padding: 0; }
+
+  /* RECOS : carrousel horizontal */
+  .recos { padding: 0 0 0 16px; margin-top: 40px; }
+  .recos__header { padding-right: 16px; margin-bottom: 16px; }
+  .recos__title { font-size: 22px; line-height: 26px; }
+  .recos__grid {
+    grid-template-columns: repeat(5, 60vw);
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-right: 16px;
+    padding-bottom: 16px;
+  }
+  .recos__grid::-webkit-scrollbar { display: none; }
+  .product-card { scroll-snap-align: start; }
+
+  /* INFO BANNER : 1 col */
+  .info-banner { padding: 32px 16px; }
+  .info-banner__grid { grid-template-columns: 1fr; gap: 16px; }
+
+  /* FOOTER : 1 col */
+  .footer { padding: 40px 16px 24px; }
+  .footer__top { grid-template-columns: 1fr; gap: 32px; }
+  .footer__bottom { flex-direction: column; align-items: flex-start; text-align: left; }
+
+  /* Scroll top remonté pour ne pas chevaucher la mobile-cta */
+  .scroll-top {
+    right: 16px;
+    bottom: calc(88px + env(safe-area-inset-bottom));
+    width: 44px;
+    height: 44px;
+  }
+
+  /* MOBILE CTA visible + body padding-bottom */
+  .mobile-cta { display: flex; }
+  body { padding-bottom: 88px; }
+
+  /* Recos titre plus petit */
+  .recos__title { font-size: 22px; line-height: 28px; }
+}
+
+/* =========================================================
+   Très petits écrans — ajustements supplémentaires
+   ========================================================= */
+@media (max-width: 400px) {
+  .header__actions { gap: 12px; }
+  .recos__grid { grid-template-columns: repeat(5, 72vw); }
+}
+
+</style>
+</head>
+<body>
+
+  <!-- ========================= HEADER ========================= -->
+  <header class="header">
+    <!-- Bandeau noir 24px (desktop) / 32px (mobile) -->
+    <div class="header__bandeau">
+      <button class="header__bandeau-left" type="button" aria-label="Magasins">
+        <img class="icon icon--sm" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/store.svg" alt="" aria-hidden="true">
+        <span>Magasins</span>
+      </button>
+
+      <div class="header__bandeau-msg" aria-live="polite">
+        <span class="bandeau-msg is-active">
+          Bénéficiez de la <strong>livraison différée</strong>.
+        </span>
+        <span class="bandeau-msg">
+          Payer en <strong>3x</strong>, <strong>4x</strong>, <strong>10x</strong> et maintenant <strong>24x</strong> !
+        </span>
+        <span class="bandeau-msg">
+          <strong>Excellent</strong> · 4,7/5 sur Trustpilot
+        </span>
+      </div>
+
+      <button class="header__bandeau-right" type="button" aria-label="Pays : France">
+        <span>🇫🇷</span>
+        <img class="icon icon--sm" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/caret-down.svg" alt="" aria-hidden="true">
+      </button>
+    </div>
+
+    <!-- Header main : menu, logo, search, actions -->
+    <div class="header__main">
+      <button class="header__menu" type="button" aria-label="Menu">
+        <img class="icon" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/menu-burger.svg" alt="" aria-hidden="true">
+      </button>
+
+      <a href="/" class="header__logo" aria-label="Bobochic Paris — Accueil">
+        <img class="header__logo-img header__logo-img--desktop" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/logo-bobochic-paris-dark.svg" alt="Bobochic Paris">
+        <img class="header__logo-img header__logo-img--mobile" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/logo-bobochic-dark.svg" alt="Bobochic">
+      </a>
+
+      <form class="header__search" role="search">
+        <img class="icon" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/magnifying-glass.svg" alt="" aria-hidden="true">
+        <input type="search" placeholder="Rechercher..." aria-label="Recherche" />
+      </form>
+
+      <div class="header__actions">
+        <button class="header__action header__action--with-label" type="button" aria-label="Magasins">
+          <img class="icon" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/store.svg" alt="" aria-hidden="true">
+          <span>Magasins</span>
+        </button>
+
+        <button class="header__action header__action--with-label" type="button" aria-label="Conseils sur mesure">
+          <img class="icon" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/headphones.svg" alt="" aria-hidden="true">
+          <span>Conseils sur mesure</span>
+        </button>
+
+        <button class="header__action header__action--icon" type="button" aria-label="Compte">
+          <img class="icon" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/user.svg" alt="" aria-hidden="true">
+          <span class="header__pastille header__pastille--check" aria-hidden="true">
+            <img class="icon" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/checkmark.svg" alt="">
+          </span>
+        </button>
+
+        <button class="header__action header__action--icon" type="button" aria-label="Panier (2)">
+          <img class="icon" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/shopping-bag.svg" alt="" aria-hidden="true">
+          <span class="header__pastille header__pastille--count" aria-hidden="true">2</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Nav (desktop uniquement) -->
+    <nav class="header__nav" aria-label="Navigation principale">
+      <a href="#" class="nav-item nav-sale">
+        <span>Soldes</span>
+        <img class="icon icon--sm" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/caret-down.svg" alt="" aria-hidden="true">
+      </a>
+      <a href="#" class="nav-item">Nouvelle collection</a>
+      <a href="#" class="nav-item">Avant première</a>
+      <a href="#" class="nav-item">Meilleures ventes</a>
+      <a href="#" class="nav-item">
+        <span>Services</span>
+        <img class="icon icon--sm" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/caret-down.svg" alt="" aria-hidden="true">
+      </a>
+      <a href="#" class="nav-item">
+        <span>Espace Pro</span>
+        <img class="icon icon--sm" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/caret-down.svg" alt="" aria-hidden="true">
+      </a>
+    </nav>
+  </header>
+
+  <!-- ========================= BREADCRUMB ========================= -->
+  <nav class="breadcrumb" aria-label="Fil d'Ariane">
+    <a href="#">Accueil</a>
+    <span class="breadcrumb__sep">/</span>
+    <a href="#">Canapés</a>
+    <span class="breadcrumb__sep">/</span>
+    <a href="#">Canapés d'angle</a>
+    <span class="breadcrumb__sep">/</span>
+    <span class="breadcrumb__current">Calypso</span>
+  </nav>
+
+  <!-- ========================= PDP ========================= -->
+  <main class="pdp">
+
+    <!-- ------------- LEFT : Shop The Look ------------- -->
+    <section class="pdp__left">
+
+      <div class="shop-the-look-frame">
+
+      <!-- Toggle mobile : afficher / masquer les hotspots sur la 3e photo -->
+      <button class="stl__hotspots-toggle" id="hotspotsToggle" type="button" aria-label="Masquer les hotspots" aria-pressed="true">
+        <img class="icon icon--sm stl__hotspots-toggle-icon stl__hotspots-toggle-icon--on" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/eye.svg" alt="" aria-hidden="true">
+        <img class="icon icon--sm stl__hotspots-toggle-icon stl__hotspots-toggle-icon--off" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/eye-none.svg" alt="" aria-hidden="true">
+      </button>
+
+      <div class="shop-the-look" id="shopTheLook" aria-label="Photos du produit en ambiance">
+
+        <!-- Toggle vue grille / vue empilée -->
+        <div class="shop-the-look__toolbar" role="group" aria-label="Mode d'affichage">
+          <button class="view-toggle is-active" type="button" data-view="grid" aria-label="Afficher en grille" aria-pressed="true">
+            <img class="icon icon--sm" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/grid-2x2.svg" alt="" aria-hidden="true">
+          </button>
+          <button class="view-toggle" type="button" data-view="stacked" aria-label="Afficher en colonne" aria-pressed="false">
+            <img class="icon icon--sm" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/grid-1x2.svg" alt="" aria-hidden="true">
+          </button>
+        </div>
+
+        <div class="stl__cell" data-cell="1">
+          <img src="assets/img1.jpg" alt="Canapé CALYPSO en ambiance, vue 1" />
+        </div>
+        <div class="stl__cell" data-cell="2">
+          <img src="assets/img2.jpg" alt="Canapé CALYPSO en ambiance, vue 2" />
+        </div>
+
+        <!-- Image avec hotspots Shop The Look -->
+        <div class="stl__cell" data-cell="3">
+          <img src="assets/img3.jpg" alt="Canapé CALYPSO, vue d'ambiance avec produits cliquables" />
+
+          <div class="stl__hotspot-wrap stl__hotspot-wrap--right" style="top: 50%; left: 18%;">
+            <button class="stl__hotspot" aria-label="Voir le tapis NOKU"></button>
+            <div class="hotspot-preview" role="tooltip">
+              <div class="hotspot-preview__item">
+                <span class="hotspot-preview__thumb"><img src="assets/noku.jpg" alt="" /></span>
+                <div class="hotspot-preview__info">
+                  <p class="hotspot-preview__name">Noku</p>
+                  <p class="hotspot-preview__desc">Tapis shaggy NOKU uni</p>
+                  <p class="hotspot-preview__price"><span>289</span><span>€</span></p>
+                </div>
+              </div>
+              <a class="hotspot-preview__cta" href="#" aria-label="Voir le produit">
+                <img class="icon icon--sm" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/shopping-bag.svg" alt="" aria-hidden="true">
+              </a>
+            </div>
+          </div>
+
+          <div class="stl__hotspot-wrap" style="top: 70%; left: 31%;">
+            <button class="stl__hotspot" aria-label="Voir le plaid OSLO"></button>
+            <div class="hotspot-preview" role="tooltip">
+              <div class="hotspot-preview__item">
+                <span class="hotspot-preview__thumb"><img src="assets/oslo.jpg" alt="" /></span>
+                <div class="hotspot-preview__info">
+                  <p class="hotspot-preview__name">Oslo</p>
+                  <p class="hotspot-preview__desc">Plaid 140 x 180 cm OSLO</p>
+                  <p class="hotspot-preview__price"><span>129</span><span>€</span></p>
+                </div>
+              </div>
+              <a class="hotspot-preview__cta" href="#" aria-label="Voir le produit">
+                <img class="icon icon--sm" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/shopping-bag.svg" alt="" aria-hidden="true">
+              </a>
+            </div>
+          </div>
+
+          <div class="stl__hotspot-wrap" style="top: 64%; left: 58%;">
+            <button class="stl__hotspot" aria-label="Voir la table basse ALINE"></button>
+            <div class="hotspot-preview" role="tooltip">
+              <div class="hotspot-preview__item">
+                <span class="hotspot-preview__thumb"><img src="assets/aline.jpg" alt="" /></span>
+                <div class="hotspot-preview__info">
+                  <p class="hotspot-preview__name">Aline</p>
+                  <p class="hotspot-preview__desc">Table basse D.100 cm ALINE bois massif de manguier</p>
+                  <p class="hotspot-preview__price"><span>549</span><span>€</span></p>
+                </div>
+              </div>
+              <a class="hotspot-preview__cta" href="#" aria-label="Voir le produit">
+                <img class="icon icon--sm" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/shopping-bag.svg" alt="" aria-hidden="true">
+              </a>
+            </div>
+          </div>
+
+          <div class="stl__hotspot-wrap" style="top: 46%; left: 73%;">
+            <button class="stl__hotspot" aria-label="Voir l'ensemble STOCKHOLM"></button>
+            <div class="hotspot-preview hotspot-preview--no-cta" role="tooltip">
+              <div class="hotspot-preview__item">
+                <span class="hotspot-preview__thumb"><img src="assets/stockholm.jpg" alt="" /></span>
+                <div class="hotspot-preview__info">
+                  <p class="hotspot-preview__name">Stockholm</p>
+                  <p class="hotspot-preview__desc">Ensemble STOCKHOLM avec Plaid beige + 2 coussins terracotta réversibles</p>
+                  <p class="hotspot-preview__price"><span>229</span><span>€</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="stl__cell" data-cell="4">
+          <img src="assets/img4.jpg" alt="Canapé CALYPSO en ambiance, vue 4" />
+        </div>
+
+        <button class="btn btn--white stl__more" type="button">
+          Voir plus de photos
+          <img class="icon icon--sm" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/caret-right.svg" alt="" aria-hidden="true">
+        </button>
+      </div>
+
+      <!-- Step indicator (mobile uniquement) — absolute sur le wrapper, ne scroll pas -->
+      <div class="stl__steps" aria-hidden="true">
+        <span class="stl__step is-active"></span>
+        <span class="stl__step"></span>
+        <span class="stl__step"></span>
+        <span class="stl__step"></span>
+      </div>
+      </div>
+
+      <!-- Les + du produit (sous les photos en desktop, déplacé par order en mobile) -->
+      <section class="product-plus" aria-labelledby="plus-title">
+        <h2 id="plus-title">Les + du produit</h2>
+        <ul>
+          <li>Forme arrondie originale</li>
+          <li>Tissu bouclette agréable au toucher</li>
+          <li>Les 9 coussins assurent confort et maintien du dos</li>
+        </ul>
+      </section>
+    </section>
+
+    <!-- ------------- RIGHT : Détail produit ------------- -->
+    <aside class="pdp__right">
+
+      <!-- Card principale -->
+      <article class="detail-card">
+
+        <header>
+          <div class="detail-card__flags">
+            <span class="flag">Nouveau</span>
+            <span class="flag">Montage possible</span>
+          </div>
+
+          <div class="detail-card__product" style="margin-top: 8px;">
+            <h1>CALYPSO</h1>
+            <p class="detail-card__subtitle">Canapé d'angle fixe CALYPSO tissu bouclette</p>
+          </div>
+        </header>
+
+        <!-- Prix + Alma -->
+        <div class="price-row">
+          <div>
+            <div class="price__amount"><span>1 699</span><span>€</span></div>
+            <p class="price__eco">Dont 60,70&nbsp;€ TTC d'éco-mobilier</p>
+          </div>
+
+          <div class="alma">
+            <span class="alma__logo">Alma</span>
+            <div class="alma__schedules">
+              <div class="alma__chips">
+                <span class="alma__chip is-active">3x</span>
+                <span class="alma__chip">4x</span>
+                <span class="alma__chip">10x</span>
+                <span class="alma__chip">12x</span>
+                <span class="alma__chip">24x</span>
+              </div>
+              <span class="alma__split"><strong>3 x 366 €</strong> (sans frais)</span>
+              <button class="alma__more" type="button">En savoir plus</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dimensions -->
+        <div class="dimensions">
+          <div class="dim-item">
+            <div class="dim-item__icon" aria-hidden="true">
+              <img class="icon" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/width.svg" alt="" aria-hidden="true">
+            </div>
+            <div class="dim-item__text">
+              <span>Longueur</span>
+              <strong>79 cm</strong>
+            </div>
+          </div>
+          <div class="dim-item">
+            <div class="dim-item__icon" aria-hidden="true">
+              <img class="icon" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/height.svg" alt="" aria-hidden="true">
+            </div>
+            <div class="dim-item__text">
+              <span>Hauteur</span>
+              <strong>79 cm</strong>
+            </div>
+          </div>
+          <div class="dim-item">
+            <div class="dim-item__icon" aria-hidden="true">
+              <img class="icon" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/depth.svg" alt="" aria-hidden="true">
+            </div>
+            <div class="dim-item__text">
+              <span>Profondeur</span>
+              <strong>79 cm</strong>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+
+        <!-- Couleur -->
+        <div class="selector">
+          <span class="selector__label">Couleur</span>
+          <div class="selector__sample">
+            <span class="color-swatch" role="img" aria-label="Couleur vert"></span>
+            <span>Vert</span>
+          </div>
+          <div class="selector__options">
+            <span class="selector__count">5 options</span>
+            <button class="icon-btn" aria-label="Voir toutes les couleurs">
+              <img class="icon icon--sm" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/plus.svg" alt="" aria-hidden="true">
+            </button>
+          </div>
+        </div>
+
+        <hr />
+
+        <!-- Angle -->
+        <div class="selector">
+          <span class="selector__label">Angle</span>
+          <div class="chips">
+            <button class="chip" type="button">
+              <img class="icon icon--sm" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/corner-left.svg" alt="" aria-hidden="true">
+              <span>Gauche</span>
+            </button>
+            <button class="chip is-active" type="button" aria-pressed="true">
+              <span>Droit</span>
+              <img class="icon icon--sm" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/corner-right.svg" alt="" aria-hidden="true">
+            </button>
+            <span class="chip__hint">En face du canapé</span>
+          </div>
+        </div>
+
+        <hr />
+
+        <!-- Livraison -->
+        <p class="delivery-est">
+          Livraison estimée entre le <strong>02 Juillet</strong> et le <strong>09 Juillet</strong>,
+          ou choisissez une date de livraison différente.
+        </p>
+
+        <!-- Main CTA -->
+        <div class="main-cta">
+          <div class="stepper" role="group" aria-label="Quantité">
+            <button type="button" aria-label="Diminuer la quantité">
+              <img class="icon icon--sm" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/minus.svg" alt="" aria-hidden="true">
+            </button>
+            <input type="number" value="1" min="1" aria-label="Quantité" />
+            <button type="button" aria-label="Augmenter la quantité">
+              <img class="icon icon--sm" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/plus.svg" alt="" aria-hidden="true">
+            </button>
+          </div>
+          <button class="btn btn--primary" type="button">
+            <img class="icon icon--sm" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/shopping-bag.svg" alt="" aria-hidden="true">
+            Ajouter au panier
+          </button>
+        </div>
+      </article>
+
+      <!-- Reels -->
+      <section class="reels" aria-label="Vidéos du produit">
+        <button class="reel" type="button">
+          <span class="reel__thumb">
+            <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=400&q=80" alt="" />
+          </span>
+          <span class="reel__label">Tips livraison</span>
+        </button>
+        <button class="reel" type="button">
+          <span class="reel__thumb">
+            <img src="https://images.unsplash.com/photo-1558211583-d26f610c1eb1?auto=format&fit=crop&w=400&q=80" alt="" />
+          </span>
+          <span class="reel__label">Unboxing</span>
+        </button>
+        <button class="reel" type="button">
+          <span class="reel__thumb">
+            <img src="https://images.unsplash.com/photo-1540574163026-643ea20ade25?auto=format&fit=crop&w=400&q=80" alt="" />
+          </span>
+          <span class="reel__label">Fabrication</span>
+        </button>
+      </section>
+
+      <!-- Accordions -->
+      <section class="accordions" aria-label="Détails produit">
+        <details class="accordion" open>
+          <summary>
+            <span>Dimensions</span>
+            <span class="toggle-icon">
+              <img class="icon icon--sm" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/plus.svg" alt="" aria-hidden="true">
+            </span>
+          </summary>
+          <div class="accordion__body">
+            <ul>
+              <li>Longueur totale : 280 cm</li>
+              <li>Profondeur : 180 cm</li>
+              <li>Hauteur d'assise : 45 cm</li>
+              <li>Hauteur totale : 79 cm</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="accordion">
+          <summary>
+            <span>Caractéristiques</span>
+            <span class="toggle-icon">
+              <img class="icon icon--sm" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/plus.svg" alt="" aria-hidden="true">
+            </span>
+          </summary>
+          <div class="accordion__body">
+            <p>Structure pin massif et panneaux de particules. Garnissage mousse haute résilience. Revêtement tissu bouclette 100% polyester.</p>
+          </div>
+        </details>
+
+        <details class="accordion">
+          <summary>
+            <span>Description</span>
+            <span class="toggle-icon">
+              <img class="icon icon--sm" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/plus.svg" alt="" aria-hidden="true">
+            </span>
+          </summary>
+          <div class="accordion__body">
+            <p>Le CALYPSO incarne la nouvelle génération de canapés d'angle. Sa forme arrondie, signature de la collection, dialogue avec ses 9 coussins moelleux pour un confort enveloppant. Le tissu bouclette, doux et chaleureux, apporte la touche finale d'un salon haut de gamme.</p>
+          </div>
+        </details>
+
+        <details class="accordion">
+          <summary>
+            <span>Mode de livraison</span>
+            <span class="toggle-icon">
+              <img class="icon icon--sm" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/plus.svg" alt="" aria-hidden="true">
+            </span>
+          </summary>
+          <div class="accordion__body">
+            <p>Livraison à domicile, au pied de l'immeuble. Montage possible en option par nos équipes.</p>
+          </div>
+        </details>
+      </section>
+
+      <!-- Réassurance -->
+      <section class="reassurance" aria-label="Services et ressources">
+        <button class="reassurance-chip reassurance-chip--dark" type="button">
+          <span>Télécharger la notice de montage</span>
+          <img class="icon icon--sm" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/download.svg" alt="" aria-hidden="true">
+        </button>
+
+        <button class="reassurance-chip" type="button">
+          <img class="icon icon--sm" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/headphones.svg" alt="" aria-hidden="true">
+          <span>Laissez-nous vous renseigner</span>
+        </button>
+
+        <button class="reassurance-chip" type="button">
+          <img class="icon icon--sm" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/clean.svg" alt="" aria-hidden="true">
+          <span>Comment nettoyer votre produit</span>
+        </button>
+
+        <button class="reassurance-chip" type="button">
+          <img class="icon icon--sm" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/book.svg" alt="" aria-hidden="true">
+          <span>Votre guide d'achat</span>
+        </button>
+      </section>
+    </aside>
+  </main>
+
+  <!-- ========================= RECOMMANDATIONS ========================= -->
+  <section class="recos">
+    <header class="recos__header">
+      <h2 class="recos__title">Vous aimerez aussi</h2>
+      <a href="#" class="recos__cta">Voir toute la collection</a>
+    </header>
+
+    <div class="recos__grid">
+
+      <article class="product-card">
+        <div class="product-card__media">
+          <div class="product-card__badges"><span class="flag">Nouveau</span></div>
+          <button class="product-card__wish" aria-label="Ajouter aux favoris">
+            <img class="icon icon--sm" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/heart.svg" alt="" aria-hidden="true">
+          </button>
+          <img src="https://images.unsplash.com/photo-1550226891-ef816aed4a98?auto=format&fit=crop&w=800&q=80" alt="Canapé NIHAD" />
+        </div>
+        <span class="product-card__name">NIHAD</span>
+        <p class="product-card__desc">Canapé d'angle convertible</p>
+        <div class="product-card__prices">
+          <span class="product-card__price">1 299 €</span>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-card__media">
+          <div class="product-card__badges"><span class="product-card__discount">-15%</span></div>
+          <button class="product-card__wish" aria-label="Ajouter aux favoris">
+            <img class="icon icon--sm" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/heart.svg" alt="" aria-hidden="true">
+          </button>
+          <img src="https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=800&q=80" alt="Canapé BOURBON" />
+        </div>
+        <span class="product-card__name">BOURBON</span>
+        <p class="product-card__desc">Canapé droit en velours côtelé</p>
+        <div class="product-card__prices">
+          <span class="product-card__price product-card__price--sale">849 €</span>
+          <span class="product-card__price--old">999 €</span>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-card__media">
+          <button class="product-card__wish" aria-label="Ajouter aux favoris">
+            <img class="icon icon--sm" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/heart.svg" alt="" aria-hidden="true">
+          </button>
+          <img src="https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=800&q=80" alt="Canapé MILAN" />
+        </div>
+        <span class="product-card__name">MILAN</span>
+        <p class="product-card__desc">Canapé d'angle modulable</p>
+        <div class="product-card__prices">
+          <span class="product-card__price">1 549 €</span>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-card__media">
+          <div class="product-card__badges"><span class="flag">Nouveau</span></div>
+          <button class="product-card__wish" aria-label="Ajouter aux favoris">
+            <img class="icon icon--sm" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/heart.svg" alt="" aria-hidden="true">
+          </button>
+          <img src="https://images.unsplash.com/photo-1540574163026-643ea20ade25?auto=format&fit=crop&w=800&q=80" alt="Canapé ALBA" />
+        </div>
+        <span class="product-card__name">ALBA</span>
+        <p class="product-card__desc">Canapé 3 places fixe</p>
+        <div class="product-card__prices">
+          <span class="product-card__price">999 €</span>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-card__media">
+          <div class="product-card__badges"><span class="product-card__discount">-10%</span></div>
+          <button class="product-card__wish" aria-label="Ajouter aux favoris">
+            <img class="icon icon--sm" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/heart.svg" alt="" aria-hidden="true">
+          </button>
+          <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=800&q=80" alt="Canapé SAVANNAH" />
+        </div>
+        <span class="product-card__name">SAVANNAH</span>
+        <p class="product-card__desc">Canapé bouclette beige</p>
+        <div class="product-card__prices">
+          <span class="product-card__price product-card__price--sale">1 169 €</span>
+          <span class="product-card__price--old">1 299 €</span>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ========================= INFO BANNER ========================= -->
+  <section class="info-banner">
+    <div class="info-banner__grid">
+      <div class="info-tile">
+        <img class="icon icon--lg" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/truck.svg" alt="" aria-hidden="true">
+        <div>
+          <h3>Livraison à domicile</h3>
+          <p>Au pied de l'immeuble, créneau choisi.</p>
+        </div>
+      </div>
+
+      <div class="info-tile">
+        <img class="icon icon--lg" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/return-product.svg" alt="" aria-hidden="true">
+        <div>
+          <h3>14 jours pour changer d'avis</h3>
+          <p>Retour facilité sur l'ensemble du catalogue.</p>
+        </div>
+      </div>
+
+      <div class="info-tile">
+        <img class="icon icon--lg" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/headphones.svg" alt="" aria-hidden="true">
+        <div>
+          <h3>Service client en France</h3>
+          <p>Une équipe disponible 7j/7.</p>
+        </div>
+      </div>
+
+      <div class="info-tile">
+        <img class="icon icon--lg" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/assurance.svg" alt="" aria-hidden="true">
+        <div>
+          <h3>Garantie 2 ans</h3>
+          <p>Sur la structure de tous nos canapés.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================= FOOTER ========================= -->
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <h3>bobochic</h3>
+        <p>Du mobilier élégant, conçu en France, livré chez vous.</p>
+        <form class="footer__newsletter">
+          <input type="email" placeholder="Votre adresse e-mail" aria-label="E-mail" />
+          <button type="submit">Inscription</button>
+        </form>
+      </div>
+
+      <div class="footer__col">
+        <h4>Boutique</h4>
+        <ul>
+          <li><a href="#">Canapés</a></li>
+          <li><a href="#">Lits</a></li>
+          <li><a href="#">Matelas</a></li>
+          <li><a href="#">Linge de maison</a></li>
+          <li><a href="#">Mobilier d'extérieur</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4>Service client</h4>
+        <ul>
+          <li><a href="#">Nous contacter</a></li>
+          <li><a href="#">Livraison</a></li>
+          <li><a href="#">Retours</a></li>
+          <li><a href="#">Garanties</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4>Maison</h4>
+        <ul>
+          <li><a href="#">À propos</a></li>
+          <li><a href="#">Magasins</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Carrières</a></li>
+          <li><a href="#">Presse</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4>Suivez-nous</h4>
+        <div class="footer__socials">
+          <a href="#" aria-label="Instagram">
+            <img class="icon icon--sm" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/instagram.svg" alt="" aria-hidden="true">
+          </a>
+          <a href="#" aria-label="Pinterest">
+            <img class="icon icon--sm" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/pinterest.svg" alt="" aria-hidden="true">
+          </a>
+          <a href="#" aria-label="TikTok">
+            <img class="icon icon--sm" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/tiktok.svg" alt="" aria-hidden="true">
+          </a>
+          <a href="#" aria-label="YouTube">
+            <img class="icon icon--sm" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/youtube.svg" alt="" aria-hidden="true">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <span>© 2026 Bobochic Paris — Tous droits réservés.</span>
+      <div style="display: flex; gap: 24px;">
+        <a href="#">Mentions légales</a>
+        <a href="#">CGV</a>
+        <a href="#">Politique de confidentialité</a>
+        <a href="#">Cookies</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================= SCROLL TOP ========================= -->
+  <button class="scroll-top" aria-label="Revenir en haut" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+    <img class="icon icon--sm" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/caret-up.svg" alt="" aria-hidden="true">
+  </button>
+
+  <!-- ========================= STICKY MOBILE CTA ========================= -->
+  <div class="mobile-cta" aria-hidden="true">
+    <div class="mobile-cta__info">
+      <span class="mobile-cta__name">CALYPSO</span>
+      <span class="mobile-cta__price">1&nbsp;699&nbsp;€</span>
+    </div>
+    <button class="btn btn--primary mobile-cta__btn" type="button">
+      <img class="icon icon--sm" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/shopping-bag.svg" alt="" aria-hidden="true">
+      Ajouter au panier
+    </button>
+  </div>
+
+  <!-- ========================= BOTTOM SHEET — Voir l'ambiance ========================= -->
+  <div class="ambiance-backdrop" id="ambianceBackdrop" hidden></div>
+  <aside class="ambiance-sheet" id="ambianceSheet" role="dialog" aria-modal="true" aria-labelledby="ambianceTitle" hidden>
+    <header class="ambiance-sheet__header">
+      <h2 class="ambiance-sheet__title" id="ambianceTitle">Voir l'ambiance</h2>
+      <button class="ambiance-sheet__close" type="button" aria-label="Fermer">
+        <img class="icon" src="https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/x.svg" alt="" aria-hidden="true">
+      </button>
+    </header>
+
+    <div class="ambiance-sheet__body">
+      <div class="ambiance-grid">
+
+        <article class="ambiance-card">
+          <div class="ambiance-card__media">
+            <img src="assets/noku.jpg" alt="" />
+          </div>
+          <div class="ambiance-card__body">
+            <h3 class="ambiance-card__name">Noku</h3>
+            <p class="ambiance-card__desc">Tapis shaggy NOKU uni</p>
+            <p class="ambiance-card__price">289&nbsp;€</p>
+          </div>
+        </article>
+
+        <article class="ambiance-card">
+          <div class="ambiance-card__media">
+            <img src="assets/oslo.jpg" alt="" />
+          </div>
+          <div class="ambiance-card__body">
+            <h3 class="ambiance-card__name">Oslo</h3>
+            <p class="ambiance-card__desc">Plaid 140 x 180 cm OSLO</p>
+            <p class="ambiance-card__price">129&nbsp;€</p>
+          </div>
+        </article>
+
+        <article class="ambiance-card">
+          <div class="ambiance-card__media">
+            <img src="assets/aline.jpg" alt="" />
+          </div>
+          <div class="ambiance-card__body">
+            <h3 class="ambiance-card__name">Aline</h3>
+            <p class="ambiance-card__desc">Table basse D.100 cm ALINE bois massif de manguier</p>
+            <p class="ambiance-card__price">549&nbsp;€</p>
+          </div>
+        </article>
+
+        <article class="ambiance-card">
+          <div class="ambiance-card__media">
+            <img src="assets/stockholm.jpg" alt="" />
+          </div>
+          <div class="ambiance-card__body">
+            <h3 class="ambiance-card__name">Stockholm</h3>
+            <p class="ambiance-card__desc">Ensemble STOCKHOLM avec Plaid beige + 2 coussins terracotta réversibles</p>
+            <p class="ambiance-card__price">229&nbsp;€</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </aside>
+
+  <script>
+    // Stepper quantité
+    document.querySelectorAll('.stepper').forEach(stepper => {
+      const input = stepper.querySelector('input');
+      const [minus, plus] = stepper.querySelectorAll('button');
+      const sync = () => { minus.disabled = parseInt(input.value || '1', 10) <= 1; };
+      minus.addEventListener('click', () => { input.value = Math.max(1, (parseInt(input.value, 10) || 1) - 1); sync(); });
+      plus.addEventListener('click', () => { input.value = (parseInt(input.value, 10) || 1) + 1; sync(); });
+      sync();
+    });
+
+    // Chips angle — toggle simple
+    document.querySelectorAll('.chips').forEach(group => {
+      group.querySelectorAll('.chip').forEach(chip => {
+        chip.addEventListener('click', () => {
+          group.querySelectorAll('.chip').forEach(c => { c.classList.remove('is-active'); c.setAttribute('aria-pressed', 'false'); });
+          chip.classList.add('is-active');
+          chip.setAttribute('aria-pressed', 'true');
+        });
+      });
+    });
+
+    // Alma — toggle chip
+    document.querySelectorAll('.alma__chips').forEach(group => {
+      group.querySelectorAll('.alma__chip').forEach(chip => {
+        chip.addEventListener('click', () => {
+          group.querySelectorAll('.alma__chip').forEach(c => c.classList.remove('is-active'));
+          chip.classList.add('is-active');
+        });
+      });
+    });
+
+    // Shop The Look — toggle vue grille / vue empilée
+    document.querySelectorAll('.view-toggle').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const container = btn.closest('.shop-the-look');
+        const view = btn.dataset.view;
+        container.classList.toggle('shop-the-look--stacked', view === 'stacked');
+        container.querySelectorAll('.view-toggle').forEach(b => {
+          const isActive = b === btn;
+          b.classList.toggle('is-active', isActive);
+          b.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+        });
+      });
+    });
+
+    // Bottom sheet "Voir l'ambiance" — ouverture au clic sur un hotspot
+    const ambianceSheet = document.getElementById('ambianceSheet');
+    const ambianceBackdrop = document.getElementById('ambianceBackdrop');
+
+    function openAmbiance() {
+      ambianceSheet.hidden = false;
+      ambianceBackdrop.hidden = false;
+      requestAnimationFrame(() => {
+        ambianceSheet.classList.add('is-open');
+        ambianceBackdrop.classList.add('is-open');
+      });
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeAmbiance() {
+      ambianceSheet.classList.remove('is-open');
+      ambianceBackdrop.classList.remove('is-open');
+      document.body.style.overflow = '';
+      setTimeout(() => {
+        ambianceSheet.hidden = true;
+        ambianceBackdrop.hidden = true;
+      }, 250);
+    }
+
+    // Clic sur un hotspot → ouvre la sheet (uniquement sur mobile via media query)
+    document.querySelectorAll('.stl__hotspot').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        if (window.matchMedia('(max-width: 768px)').matches) {
+          e.preventDefault();
+          openAmbiance();
+        }
+      });
+    });
+
+    document.querySelector('.ambiance-sheet__close').addEventListener('click', closeAmbiance);
+    ambianceBackdrop.addEventListener('click', closeAmbiance);
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && ambianceSheet.classList.contains('is-open')) closeAmbiance();
+    });
+
+    // Toggle hotspots on/off (mobile uniquement) — switch eye / eye-none
+    const hotspotsToggle = document.getElementById('hotspotsToggle');
+    const stlFrame = document.querySelector('.shop-the-look-frame');
+    if (hotspotsToggle && stlFrame) {
+      hotspotsToggle.addEventListener('click', () => {
+        const isOff = stlFrame.classList.toggle('hotspots-off');
+        hotspotsToggle.setAttribute('aria-pressed', isOff ? 'false' : 'true');
+        hotspotsToggle.setAttribute('aria-label', isOff ? 'Afficher les hotspots' : 'Masquer les hotspots');
+      });
+    }
+
+    // Step indicator — sync sur scroll du carrousel mobile
+    // + affichage du toggle hotspots quand la 3e image (index 2) est visible
+    const stl = document.getElementById('shopTheLook');
+    const steps = document.querySelectorAll('.stl__step');
+    const cells = stl.querySelectorAll('.stl__cell');
+    if (cells.length && steps.length) {
+      stl.addEventListener('scroll', () => {
+        if (!window.matchMedia('(max-width: 768px)').matches) return;
+        const scrollLeft = stl.scrollLeft;
+        const cellWidth = cells[0].offsetWidth;
+        const activeIdx = Math.round(scrollLeft / cellWidth);
+        steps.forEach((s, i) => s.classList.toggle('is-active', i === activeIdx));
+        if (stlFrame) stlFrame.classList.toggle('on-hotspot-cell', activeIdx === 2);
+      }, { passive: true });
+    }
+  </script>
+</body>
+</html>
