@@ -1,7 +1,9 @@
+@import url("https://corentindw.github.io/meridian/tokens.css");
+
 /* =========================================================
    PDP CALYPSO — Shop The Look
    Aligné sur Meridian (Bobochic Paris)
-   Tokens importés depuis assets/meridian/tokens.css
+   Tokens importés depuis https://corentindw.github.io/meridian/tokens.css
    ========================================================= */
 
 /* ---------- Reset ---------- */
@@ -25,7 +27,7 @@ button { font-family: inherit; cursor: pointer; }
 a { color: inherit; text-decoration: none; }
 
 /* =========================================================
-   Icon system — <img> tags servis depuis assets/meridian/assets/icons/
+   Icon system — <img> tags servis depuis https://cdn.jsdelivr.net/gh/corentindw/meridian@main/assets/icons/
    Pour inverser en blanc sur fond foncé : auto via les sélecteurs ci-dessous.
    ========================================================= */
 .icon {
@@ -452,6 +454,7 @@ a { color: inherit; text-decoration: none; }
   transform: translateX(-50%);
   z-index: 5;
 }
+.stl__more:active { transform: translateX(-50%) scale(0.98); }
 
 /* =========================================================
    HOTSPOTS — pure CSS + animation 150ms
