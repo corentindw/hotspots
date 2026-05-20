@@ -465,6 +465,17 @@ a { color: inherit; text-decoration: none; }
   height: 32px;
   transform: translate(-50%, -50%);
   z-index: 5;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 200ms ease;
+}
+
+/* Affiche les hotspots dès que la souris entre dans la zone des photos
+   (toutes cellules confondues), ou quand un hotspot est focus clavier */
+.shop-the-look-frame:hover .stl__hotspot-wrap,
+.shop-the-look-frame:focus-within .stl__hotspot-wrap {
+  opacity: 1;
+  pointer-events: auto;
 }
 
 /* Au hover/focus, le wrap entier passe au-dessus des autres hotspots
@@ -1628,6 +1639,10 @@ a { color: inherit; text-decoration: none; }
   /* Hotspot preview desktop masquée — on utilise le bottom sheet à la place */
   .hotspot-preview { display: none !important; }
   .stl__hotspot-wrap::after { display: none; }
+
+  /* Mobile : pas de hover dispo, les hotspots restent visibles par défaut
+     (le toggle button gère leur affichage via .hotspots-off) */
+  .stl__hotspot-wrap { opacity: 1; pointer-events: auto; }
 
   /* Toggle hotspots on/off — visible sur mobile uniquement quand la 3e photo est visible */
   .stl__hotspots-toggle {
